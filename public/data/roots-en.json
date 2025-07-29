@@ -1,0 +1,32 @@
+[
+  {
+    "root": "un",
+    "meaning_cn": "否定，不",
+    "meaning_en": "not, opposite of",
+    "examples": ["unhappy", "undo"]
+  },
+  {
+    "root": "re",
+    "meaning_cn": "再次，回",
+    "meaning_en": "again, back",
+    "examples": ["return", "repeat"]
+  },
+  {
+    "root": "pre",
+    "meaning_cn": "在前，预先",
+    "meaning_en": "before",
+    "examples": ["predict", "preview"]
+  },
+  {
+    "root": "inter",
+    "meaning_cn": "在...之间，相互",
+    "meaning_en": "between, among",
+    "examples": ["international", "interact"]
+  },
+  {
+    "root": "trans",
+    "meaning_cn": "穿越，转移",
+    "meaning_en": "across, beyond",
+    "examples": ["transport", "translate"]
+  }
+]

@@ -1,0 +1,18 @@
+---
+import RootQuiz from "../components/RootQuiz.tsx";
+import RootTable from "../components/RootTable.tsx";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="日本語語根学習">
+  <div class="p-4">
+    <!-- <h1 class="text-3xl font-bold mb-6">🇯🇵 日本語語根クイズ</h1> -->
+    <!-- 传入 json 路径和语言 -->
+    <RootQuiz jsonPath="../../data/roots-jp.json" lang="ja" client:load />
+
+    <hr class="my-8 border-gray-300" />
+
+    <h2 class="text-2xl font-bold mb-4">📋 語根一覧表</h2>
+    <RootTable lang="ja" dataUrl="../../data/roots-jp.json" client:load />
+  </div>
+</BaseLayout>

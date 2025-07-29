@@ -1,0 +1,32 @@
+[
+  {
+    "root": "やま",
+    "meaning_ja": "山",
+    "meaning_en": "mountain",
+    "examples": ["山 (やま)", "山頂 (さんちょう)"]
+  },
+  {
+    "root": "かわ",
+    "meaning_ja": "川",
+    "meaning_en": "river",
+    "examples": ["川 (かわ)", "川辺 (かわべ)"]
+  },
+  {
+    "root": "ひ",
+    "meaning_ja": "火",
+    "meaning_en": "fire",
+    "examples": ["火 (ひ)", "火山 (かざん)"]
+  },
+  {
+    "root": "みず",
+    "meaning_ja": "水",
+    "meaning_en": "water",
+    "examples": ["水 (みず)", "水道 (すいどう)"]
+  },
+  {
+    "root": "そら",
+    "meaning_ja": "空",
+    "meaning_en": "sky",
+    "examples": ["空 (そら)", "空港 (くうこう)"]
+  }
+]

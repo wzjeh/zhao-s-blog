@@ -1,11 +1,11 @@
 ---
-title: 'Markdown Style Guide'
+title: '父母与儿童'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: 'Jun 19 2024'
-heroImage: '../../assets/blog-placeholder-1.jpg'
+# heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+孩子被视为“金融资产”—生来就是为了增加家庭财富和赡养年迈的父母，还是“金融负债” —其成长需要承担投资和债务？社会对这两种态度的接纳程度决定了儿童能获得的童年的长度
 
 ## Headings
 

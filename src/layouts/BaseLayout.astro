@@ -1,0 +1,48 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BaseHead from '../components/BaseHead.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<html lang="zh">
+  <head>
+    <BaseHead title={title} description={description ?? `${title} | 我的学习主页`} />
+    <style>
+      main {
+        width: calc(100% - 2em);
+        max-width: 1024px;
+        margin: auto;
+        padding: 2em 1em;
+      }
+
+      .content-container {
+        background-color: white;
+        padding: 2em;
+        border-radius: 12px;
+        box-shadow: var(--box-shadow, 0 2px 8px rgba(0,0,0,0.05));
+      }
+
+      h1, h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <div class="content-container">
+        <slot />
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -2,48 +2,95 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import ProfileImage from '../assets/profile.jpg';
+import ResearchImage from '../assets/research.png';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main class="max-w-4xl mx-auto p-8 text-gray-800">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <!-- Left: Avatar -->
+		<div class="flex justify-center md:justify-start">
+		<img
+			src={ProfileImage.src}
+			alt="Zhao Wenyuan"
+			class="max-w-[200px] w-full h-auto rounded-lg border object-contain"
+		/>
+		</div>
+
+
+        <!-- Right: Basic Info -->
+        <div class="md:col-span-2">
+          <h1 class="text-3xl font-bold mb-1">赵文远 </h1>
+          <h1 class="text-3xl font-bold mb-1">Zhao Wenyuan</h1>
+          <p class="text-sm text-gray-600">化学与AI研究者 | 博主 | 日语学习者</p>
+          <p class="text-sm text-gray-600 mb-2">Researcher in Chemistry & AI | Blogger | Japanese Learner</p>
+          <p class="text-sm">
+            📧 <a href="mailto:wenyuanengineer@gmail.com" class="text-blue-600 hover:underline">wenyuanengineer@gmail.com</a>
+          </p>
+        </div>
+      </div>
+
+    
+
+
+      <!-- Personal Information -->
+		<section class="mb-8">
+			<h4 class="text-xl font-semibold mb-2">🎓 教育与经历 / Education & Experience</h4>
+			<ul class="list-disc list-inside text-gray-700 space-y-1">
+			<li><strong>2015–2019</strong> 北京化工大学 (Beijing University of Chemical Technology)</li>
+			<li><strong>2019–2022</strong> 沈阳化工研究院 (Shenyang Research Institute of Chemical Industry)</li>
+			<li><strong>2022–2024</strong> 万华化学 (Wanhua Chemical Group)</li>
 			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+		</section>
+
+      <!-- Research Overview -->
+		<section class="mb-8">
+			<h4 class="text-xl font-semibold mb-2">🔬 研究方向简介 / Research Overview</h4>
+			<p class="mb-2">
+				我目前正在研究将人工智能用于化学合成流程的自动化，专注于以下方向：
+				I'm currently researching the application of AI in automated chemical synthesis, focusing on:
 			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+			<ul class="list-disc list-inside mb-2 text-gray-700">
+				<li>微反应器系统; Microreactor systems</li>
+				<li>反应动力学建模; Kinetic modeling of chemical reactions</li>
+				<li>多目标优化算法; Multi-objective optimization algorithms</li>
+			</ul>
+			<p class="mt-4">
+			<img src={ResearchImage.src} alt="研究内容示意图" class="rounded-lg shadow-lg w-full max-w-3xl mx-auto" />
+		</section>
+		
+
+		<!-- Publications -->
+		<section class="mb-8">
+			<h4 class="text-xl font-semibold mb-2">📄 最新论文 / Latest Publications</h4>
+			<ul class="list-disc list-inside space-y-2">
+			<li>
+				[EN] "Continuous Flow Nitration of Nitrobenzene: Kinetic Modeling and Bayesian Optimization" – <a href="https://pubs.acs.org/doi/10.1021/acs.iecr.4c04642" class="text-blue-600 hover:underline">DOI: 10.1021/acs.iecr.4c04642</a>
+			</li>
+			<li>
+				[EN] "Continuous-Flow Microreactor System for Enhanced Selectivity and Safety in Nitrobenzene Nitration" – <a href="https://doi.org/10.1021/acsomega.5c00377" class="text-blue-600 hover:underline">DOI: 10.1021/acsomega.5c00377</a>
+			</li>
+			</ul>
+		</section>
+
+
+      <!-- Blog / Updates -->
+      <section>
+        <h4 class="text-xl font-semibold mb-2">📝 博客更新 / Latest Blog Posts</h4>
+        <ul class="list-disc list-inside">
+          <li><a href="/blog/xxxx" class="text-blue-600 hover:underline">[中文] 使用贝叶斯优化进行化学反应条件探索</a></li>
+          <li><a href="/blog/yyyy" class="text-blue-600 hover:underline">[EN] Automating chemical synthesis with AI planning</a></li>
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>
