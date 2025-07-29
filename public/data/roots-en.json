@@ -28,5 +28,636 @@
     "meaning_cn": "穿越，转移",
     "meaning_en": "across, beyond",
     "examples": ["transport", "translate"]
+  },
+  {
+    "root": "sub",
+    "meaning_cn": "在下，次要",
+    "meaning_en": "under, below",
+    "examples": ["submarine", "subway"]
+  },
+  {
+    "root": "super",
+    "meaning_cn": "在上，超过",
+    "meaning_en": "above, beyond",
+    "examples": ["supermarket", "superior"]
+  },
+  {
+    "root": "anti",
+    "meaning_cn": "反对，对抗",
+    "meaning_en": "against",
+    "examples": ["antibiotic", "antifreeze"]
+  },
+  {
+    "root": "bi",
+    "meaning_cn": "二，双",
+    "meaning_en": "two, twice",
+    "examples": ["bicycle", "bilingual"]
+  },
+  {
+    "root": "multi",
+    "meaning_cn": "多，许多",
+    "meaning_en": "many, much",
+    "examples": ["multimedia", "multicultural"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "ploy",
+    "meaning_cn": "利用，参与",
+    "meaning_en": "to use, to engage",
+    "examples": ["deploy", "employee"]
+  },
+  {
+    "root": "poly",
+    "meaning_cn": "多，许多，聚-",
+    "meaning_en": "many, much",
+    "examples": ["polygon", "polyethylene"]
+  },
+  {
+    "root": "part/port",
+    "meaning_cn": "部分，参与",
+    "meaning_en": "part, share",
+    "examples": ["participant", "portfolio"]
+  },
+  {
+    "root": "ped/pod",
+    "meaning_cn": "脚，足",
+    "meaning_en": "foot",
+    "examples": ["pedestrian", "podium"]
+  },
+  {
+    "root": "prais/preci/pret/pric",
+    "meaning_cn": "买卖，价值",
+    "meaning_en": "to value, to appreciate",
+    "examples": ["appreciate", "precious"]
+  },
+  {
+    "root": "lect/lig/leg",
+    "meaning_cn": "选择，收集",
+    "meaning_en": "to choose, to gather",
+    "examples": ["select", "elect"]
+  },
+  {
+    "root": "tend/tent/tens",
+    "meaning_cn": "伸展，延伸",
+    "meaning_en": "to stretch, to extend",
+    "examples": ["tension", "tendency"]
+  },
+  {
+    "root": "medit",
+    "meaning_cn": "思考",
+    "meaning_en": "to think",
+    "examples": ["meditate", "meditation"]
+  },
+  {
+    "root": "habit",
+    "meaning_cn": "习惯，拿住，穿衣",
+    "meaning_en": "habit",
+    "examples": ["habitat", "habitual"]
+  },
+  {
+    "root": "dign",
+    "meaning_cn": "值得，高贵",
+    "meaning_en": "to value, to appreciate",
+    "examples": ["dignity", "indignant"]
+  },
+  {
+    "root": "opt",
+    "meaning_cn": "选择，收集",
+    "meaning_en": "to choose, to gather",
+    "examples": ["option", "optimize"]
+  },
+  {
+    "root": "sider",
+    "meaning_cn": "星星，铁",
+    "meaning_en": "star, iron",
+    "examples": ["sidereal", "siderite"]
+  },
+  {
+    "root": "gn/gnos/gnor",
+    "meaning_cn": "知道，认识",
+    "meaning_en": "to know, to recognize",
+    "examples": ["cognition", "recognize"]
+  },
+  {
+    "root": "-osis",
+    "meaning_cn": "病理状况",
+    "meaning_en": "pathological condition",
+    "examples": ["neurosis", "psychosis"]
+  },
+  {
+    "root": "dia",
+    "meaning_cn": "穿过，二者之间",
+    "meaning_en": "through, between",
+    "examples": ["diameter", "dialogue"]
+  },
+  {
+    "root": "tut/tuit-",
+    "meaning_cn": "看，保护，教育，照顾",
+    "meaning_en": "to see, to protect, to care for, to educate",
+    "examples": ["tutor", "tuition"]
+  },
+  {
+    "root": "serv-",
+    "meaning_cn": "服务，保持",
+    "meaning_en": "to serve, to protect",
+    "examples": ["service", "preserve"]
+  },
+  {
+    "root": "long",
+    "meaning_cn": "长",
+    "meaning_en": "long",
+    "examples": ["prolong", "longitudinal"]
+  },
+  {
+    "root": "st/sta/stat/stan/stant-",
+    "meaning_cn": "站，立",
+    "meaning_en": "to stand",
+    "examples": ["station", "status"]
+  },
+  {
+    "root": "bid",
+    "meaning_cn": "要求, 请求, 祈祷, 容忍",
+    "meaning_en": "to bid, to request, to pray, to abide",
+    "examples": ["bidding", "forbid"]
+  },
+  {
+    "root": "dis",
+    "meaning_cn": "分散，离开，缺，相反",
+    "meaning_en": "to scatter, to leave, to lack, to oppose",
+    "examples": ["disperse", "dissent"]
+  },
+  {
+    "root": "ver/vers/vert",
+    "meaning_cn": "（反）转",
+    "meaning_en": "to turn",
+    "examples": ["convert", "reverse"]
+  },
+  {
+    "root": "mand/mend",
+    "meaning_cn": "命令，委托",
+    "meaning_en": "to command, to entrust",
+    "examples": ["demand", "remand","command"]
+  },
+  {
+    "root": "proper/propri",
+    "meaning_cn": "适当，恰当,拥有",
+    "meaning_en": "proper",
+    "examples": ["property", "proprietor"]
+  },
+  {
+    "root": "tour/torn/tourn",
+    "meaning_cn": "转",
+    "meaning_en": "to turn",
+    "examples": ["tourer", "tournament"]
+  },
+  {
+    "root": "deb",
+    "meaning_cn": "负债",
+    "meaning_en": "debt",
+    "examples": ["debenture", "debit"]
+  },
+  {
+    "root": "sect/seg",
+    "meaning_cn": "切，割",
+    "meaning_en": "to cut",
+    "examples": ["section", "segment"]
+  },
+  {
+    "root": "fare-",
+    "meaning_cn": "走，费",
+    "meaning_en": "to go",
+    "examples": ["farewell", "warfare", "welfare"]
+  },
+  {
+    "root": "nutrit/nutri",
+    "meaning_cn": "营养",
+    "meaning_en": "nutrition",
+    "examples": ["nutrient", "nutritious"]
+  },
+  {
+    "root": "pessim",
+    "meaning_cn": "最底部，最坏",
+    "meaning_en": "the worst",
+    "examples": ["pessimist", "pessimism"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
+  },
+  {
+    "root": "vid/vis",
+    "meaning_cn": "看，视",
+    "meaning_en": "see",
+    "examples": ["video", "visual"]
   }
+
 ]

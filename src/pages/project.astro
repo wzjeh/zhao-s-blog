@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import Project1Image from '../assets/project-1.png';
+import Project2Image from '../assets/project-2.png'; // 第二个项目图片路径
+---
+
+<Layout
+  title="开源项目"
+  description="Open-source project developed by Zhao Wenyuan"
+  pubDate={new Date()}
+>
+  <!-- 项目 1 -->
+  <section class="mb-8">
+    <a href="/blog/data-extraction" class="block hover:bg-gray-100 p-2 rounded transition">
+      <div class="flex flex-col md:flex-row items-center gap-4">
+        <!-- 左边标题文字 -->
+        <div>
+          <h4 class="text-xl font-semibold mb-1">🧪 开源项目：AI + 过程数据提取</h4>
+          <p class="text-gray-600">这是我目前正在推进的一个大模型实现流动化学中实验数据自动提取的开源项目。</p>
+        </div>
+
+        <!-- 右边图片 -->
+        <img src={Project1Image.src} alt="Open-source Project" class="w-40 rounded-xl shadow" />
+      </div>
+    </a>
+  </section>
+
+  <!-- 项目 2（带链接） -->
+  <section class="mb-8">
+    <a href="/blog/open-liquid-handler" class="block hover:bg-gray-100 p-2 rounded transition">
+      <div class="flex flex-col md:flex-row items-center gap-4">
+        <!-- 左边标题文字 -->
+        <div>
+          <h4 class="text-xl font-semibold mb-1">🤖 开源项目：OpenLiquidHandler</h4>
+          <p class="text-gray-600">一个低成本的自动液体处理机器人复刻项目，详细流程记录在博客中。</p>
+        </div>
+
+        <!-- 右边图片 -->
+        <img src={Project2Image.src} alt="OpenLiquidHandler Project" class="w-40 rounded-xl shadow" />
+      </div>
+    </a>
+  </section>
+</Layout>

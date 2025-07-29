@@ -50,6 +50,10 @@ const RootQuiz: React.FC<Props> = ({ jsonPath, lang = "ja" }) => {
             : "正确！词根"
         } "${correct}"、${lang === "ja" ? "例：" : lang === "en" ? "e.g." : "例如："} ${examples}`
       );
+      // 答对后延迟 1 秒跳转到下一题
+      setTimeout(() => {
+        nextQuestion();
+      }, 1000);
     } else {
       setFeedback(
         `❌ ${
@@ -118,6 +122,11 @@ const RootQuiz: React.FC<Props> = ({ jsonPath, lang = "ja" }) => {
         placeholder={placeholderMap[lang]}
         value={answer}
         onChange={(e) => setAnswer(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            checkAnswer();
+          }
+        }}
         className="border p-2 rounded w-3/4 mb-4"
       />
       <div>
