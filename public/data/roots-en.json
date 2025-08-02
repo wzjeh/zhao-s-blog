@@ -60,10 +60,10 @@
     "examples": ["multimedia", "multicultural"]
   },
   {
-    "root": "vid/vis",
+    "root": "vid/vis/hist",
     "meaning_cn": "看，视",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["video", "visual", "historic"]
   },
   {
     "root": "ploy",
@@ -246,418 +246,1090 @@
     "examples": ["pessimist", "pessimism"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "lud/lus",
+    "meaning_cn": "玩，笑",
+    "meaning_en": "to play, to mock",
+    "examples": ["ludicrous", "lust"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "sent/sens",
+    "meaning_cn": "感觉，感知",
+    "meaning_en": "to feel, to perceive",
+    "examples": ["sensation", "sentiment"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "brev/bridg",
+    "meaning_cn": "短的",
+    "meaning_en": "short",
+    "examples": ["abbreviate", "bridge"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "str/strat",
+    "meaning_cn": "扩散，层",
+    "meaning_en": "to spread, to layer",
+    "examples": ["stratum", "strategy"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "forc/fort",
+    "meaning_cn": "强，力",
+    "meaning_en": "strong, force",
+    "examples": ["fortify", "force"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "voc/vok/vow/voic/vouc",
+    "meaning_cn": "声音，叫喊",
+    "meaning_en": "voice",
+    "examples": ["vocal", "invoke"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "grav/griev",
+    "meaning_cn": "沉重，严重",
+    "meaning_en": "heavy, serious",
+    "examples": ["gravity", "grievance"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "cav",
+    "meaning_cn": "洞，空",
+    "meaning_en": "cave",
+    "examples": ["cavity", "excavate"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "terr",
+    "meaning_cn": "土，土地",
+    "meaning_en": "earth, land",
+    "examples": ["terrain", "territory"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "stitut/stit",
+    "meaning_cn": "建立，放下",
+    "meaning_en": "to set up, to put down",
+    "examples": ["institution", "substitute","stitch"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "lax/leas/lang",
+    "meaning_cn": "松的",
+    "meaning_en": "loose",
+    "examples": ["relax", "laxative"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "pend/pens/pond",
+    "meaning_cn": "花费, 思考",
+    "meaning_en": "to spend, to think",
+    "examples": ["pensive", "suspend"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "sur",
+    "meaning_cn": "确定，肯定/超过，在上面",
+    "meaning_en": "to ensure, to affirm",
+    "examples": ["surveillance", "surrogate","surname"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "ver",
+    "meaning_cn": "真实的",
+    "meaning_en": "true",
+    "examples": ["verify", "verdict"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "dict",
+    "meaning_cn": "说话，断言",
+    "meaning_en": "to say, to assert",
+    "examples": ["dictate", "dictionary"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "spir",
+    "meaning_cn": "呼吸，灵魂",
+    "meaning_en": "to breathe, spirit",
+    "examples": ["respiration", "inspire"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "tempt",
+    "meaning_cn": "诱惑，尝试",
+    "meaning_en": "to tempt",
+    "examples": ["temptation", "temptress"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "hypo",
+    "meaning_cn": "低于，不足",
+    "meaning_en": "below, under",
+    "examples": ["hypothesis", "hypoglycemia"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "cil",
+    "meaning_cn": "睫毛，绒毛",
+    "meaning_en": "to call, to summon",
+    "examples": ["cilium", "cilery"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "rupt",
+    "meaning_cn": "分裂，打断",
+    "meaning_en": "to break, to interrupt",
+    "examples": ["disrupt", "eruption"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "ign",
+    "meaning_cn": "点火，火",
+    "meaning_en": "to ignite, fire",
+    "examples": ["ignite", "ignition"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "furn",
+    "meaning_cn": "提供",
+    "meaning_en": "to furnish",
+    "examples": ["furniture", "furnish"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "cata",
+    "meaning_cn": "向下，相反，离开",
+    "meaning_en": "to call down",
+    "examples": ["catalyst", "catalog"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "greg",
+    "meaning_cn": "群体",
+    "meaning_en": "group",
+    "examples": ["gregarious", "congregate"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "cern/cert/cret",
+    "meaning_cn": "区分",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["discern", "concern"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "suas/suad",
+    "meaning_cn": "劝告，建议",
+    "meaning_en": "to advise",
+    "examples": ["suasion", "persuasive"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "card/chart",
+    "meaning_cn": "纸片",
+    "meaning_en": "card",
+    "examples": ["cardboard", "chart"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "mer/mero/mere",
+    "meaning_cn": "部分，分配",
+    "meaning_en": "to divide",
+    "examples": ["merge", "merchant"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "monstr",
+    "meaning_cn": "显示",
+    "meaning_en": "to show",
+    "examples": ["demonstrate", "remonstrate"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "point/punct",
+    "meaning_cn": "刺，戳",
+    "meaning_en": "to prick, to puncture",
+    "examples": ["punctual", "puncture","pointy"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "turb",
+    "meaning_cn": "旋转，搅动",
+    "meaning_en": "to stir, to rotate",
+    "examples": ["turbulence", "turbine"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "phan/phas/phen",
+    "meaning_cn": "显示",
+    "meaning_en": "to show",
+    "examples": ["phantom", "phase"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "scept/skept",
+    "meaning_cn": "怀疑",
+    "meaning_en": "to doubt",
+    "examples": ["skeptic", "sceptical"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "dult",
+    "meaning_cn": "不变的，固定的，成年",
+    "meaning_en": "to be fixed",
+    "examples": ["adult"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "bat/but",
+    "meaning_cn": "打击",
+    "meaning_en": "to strike",
+    "examples": ["battle", "rebut"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "do/don/dit/dot/dow",
+    "meaning_cn": "给予",
+    "meaning_en": "to give",
+    "examples": ["donor", "dowry","dote"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "terr",
+    "meaning_cn": "恐，怕",
+    "meaning_en": "to frighten",
+    "examples": ["terror", "terrify"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "fin",
+    "meaning_cn": "结束，范围，限制",
+    "meaning_en": "to finish, to limit",
+    "examples": ["final", "finite"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "ject/jac",
+    "meaning_cn": "投掷，握",
+    "meaning_en": "to throw, to grasp",
+    "examples": ["eject", "inject"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "mit",
+    "meaning_cn": "软，成熟，温顺",
+    "meaning_en": "to soften, to mature, to tame",
+    "examples": ["mitigate", "immitigable"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "pred",
+    "meaning_cn": "掠夺",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["predator", "predacious"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "ment/mind",
+    "meaning_cn": "思考，神智",
+    "meaning_en": "to think, to be aware",
+    "examples": ["mental", "mindful"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "fan/fam/fess",
+    "meaning_cn": "说话",
+    "meaning_en": "to speak",
+    "examples": ["famous", "fanfare"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "id/ident",
+    "meaning_cn": "相同",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["identity"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "grad",
+    "meaning_cn": "步，级别",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["grade", "gradually", "grader"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "patr/pater",
+    "meaning_cn": "爱国，父系",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["patriot", "patrician", "patron"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "gen/gener",
+    "meaning_cn": "出生，基因",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["generate", "genera"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "mal/mis",
+    "meaning_cn": "恶，坏",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["malicious", "malfunction"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "dem/demo",
+    "meaning_cn": "民众，人民",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["democrat", "democracy"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "ante/anti",
+    "meaning_cn": "先于，前面",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["anticipate", "anticipation"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "rat/reas",
+    "meaning_cn": "计算，思考",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["rational", "reasoning"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "infra/infer",
+    "meaning_cn": "下，低",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["inferno", "inferior","infrared","infrastructure"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "cad/cas/cid",
+    "meaning_cn": "落下，降临",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["cascade", "decadent"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "commod",
+    "meaning_cn": "方便",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["commodity", "commode", "accommodate"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "para/par",
+    "meaning_cn": "半，旁，辅助",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["parachute", "parallel", "paranormal"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "not",
+    "meaning_cn": "知道，注意",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["notice", "notify", "notion"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "pon/pound",
+    "meaning_cn": "放置,重击",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["pounder", "pounding"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "pos/posit",
+    "meaning_cn": "放",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["position", "deposit"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "lus/lud",
+    "meaning_cn": "玩，笑",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["ludic", "lust"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "rage",
+    "meaning_cn": "疯狂",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["raged", "visual"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "rag",
+    "meaning_cn": "破布，碎片",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["ragman", "ragpicker", "ragged"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "vent/ven",
+    "meaning_cn": "来",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["venture", "ventilator", "ventilate"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "rap/rapt/rav",
+    "meaning_cn": "铺展，抓住",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["rave", "rapture", "raven"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
+    "root": "pet",
+    "meaning_cn": "追求，追寻",
     "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "examples": ["petition", "peter"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "duc/duct",
+    "meaning_cn": "引导，教育",
+    "meaning_en": "to lead, to teach",
+    "examples": ["conduct", "induce"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "frag/fric/fract",
+    "meaning_cn": "破碎，打碎",
+    "meaning_en": "to break",
+    "examples": ["fragment", "friction", "fracture"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "rid/ris",
+    "meaning_cn": "笑",
+    "meaning_en": "to laugh",
+    "examples": ["ridiculous", "risible"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "grat/gree",
+    "meaning_cn": "感激，高兴",
+    "meaning_en": "to please, to welcome",
+    "examples": ["grateful", "gratuity"]
   },
   {
-    "root": "vid/vis",
-    "meaning_cn": "看，视",
-    "meaning_en": "see",
-    "examples": ["video", "visual"]
+    "root": "burs",
+    "meaning_cn": "囊，口袋",
+    "meaning_en": "pouch, pocket",
+    "examples": ["bursar", "bursa", "disburse"]
+  },
+  {
+    "root": "in/im/ir",
+    "meaning_cn": "不，无",
+    "meaning_en": "not, without",
+    "examples": ["invisible", "impossible", "irregular"]
+  },
+  {
+    "root": "col",
+    "meaning_cn": "耕种，居住",
+    "meaning_en": "to cultivate, to inhabit",
+    "examples": ["colonize", "colony"]
+  },
+  {
+    "root": "frus",
+    "meaning_cn": "欺骗，失望",
+    "meaning_en": "to deceive, to disappoint",
+    "examples": ["frustrate", "frustrating"]
+  },
+  {
+    "root": "pli/plic/ply",
+    "meaning_cn": "铺展，抓住",
+    "meaning_en": "to seize, to grasp",
+    "examples": ["accomplice", "multiply", "plier"]
+  },
+  {
+    "root": "firm/farm",
+    "meaning_cn": "坚定，确定",
+    "meaning_en": "to choose, to gather",
+    "examples": ["confirm", "affirm", "firmware"]
+  },
+  {
+    "root": "secut/sequ",
+    "meaning_cn": "跟随，顺从",
+    "meaning_en": "to follow, to sequence",
+    "examples": ["consecutive", "sequel"]
+  },
+  {
+    "root": "len",
+    "meaning_cn": "伸展，延伸,松",
+    "meaning_en": "to stretch, to extend",
+    "examples": ["length", "lengthen", "lenient"]
+  },
+  {
+    "root": "gress/ped",
+    "meaning_cn": "走，步",
+    "meaning_en": "to step, to go",
+    "examples": ["progress", "regress", "aggressive"]
+  },
+  {
+    "root": "cept/cap/cip",
+    "meaning_cn": "抓，取，握住",
+    "meaning_en": "to seize, to take",
+    "examples": ["intercept", "capture", "anticipate"]
+  },
+  {
+    "root": "ple/pli/plen/plet",
+    "meaning_cn": "填满",
+    "meaning_en": "to fill",
+    "examples": ["complete", "replete", "supplement"]
+  },
+  {
+    "root": "solv/solu/solut",
+    "meaning_cn": "解决，松开",
+    "meaning_en": "to loosen, to solve",
+    "examples": ["dissolve", "solution", "solvent"]
+  },
+  {
+    "root": "put",
+    "meaning_cn": "放，置",
+    "meaning_en": "to place, to put",
+    "examples": ["input", "output", "putty"]
+  },
+  {
+    "root": "flict",
+    "meaning_cn": "冲突，打击",
+    "meaning_en": "to strike, to clash",
+    "examples": ["conflict", "inflict", "afflict"]
+  },
+  {
+    "root": "crit/cris",
+    "meaning_cn": "批评，判断，分辨",
+    "meaning_en": "to judge, to separate",
+    "examples": ["critical", "crisis", "criteria"]
+  },
+  {
+    "root": "or/ora/orat",
+    "meaning_cn": "口，演讲",
+    "meaning_en": "to speak, to plead",
+    "examples": ["oral", "orator", "oration"]
+  },
+  {
+    "root": "press/prin/prim",
+    "meaning_cn": "压，挤",
+    "meaning_en": "to press, to squeeze",
+    "examples": ["pressure", "imprint", "primary"]
+  },
+  {
+    "root": "flu/fluct",
+    "meaning_cn": "流动，波动",
+    "meaning_en": "to flow, to fluctuate",
+    "examples": ["fluid", "fluctuate", "influence"]
+  },
+  {
+    "root": "tain/ten/tin",
+    "meaning_cn": "保持，维持，拿住",
+    "meaning_en": "to hold, to maintain",
+    "examples": ["contain", "detain", "sustain"]
+  },
+  {
+    "root": "et/ev/veter",
+    "meaning_cn": "老的，年长",
+    "meaning_en": "to age, to grow old",
+    "examples": ["veteran", "inveterate", "veterinary"]
+  },
+  {
+    "root": "spond/spons/spous",
+    "meaning_cn": "承诺，保证",
+    "meaning_en": "to promise, to pledge",
+    "examples": ["respond", "sponsor", "espouse"]
+  },
+  {
+    "root": "cent/hund",
+    "meaning_cn": "百",
+    "meaning_en": "one hundred",
+    "examples": ["century", "percent", "hundred"]
+  },
+  {
+    "root": "scent",
+    "meaning_cn": "气味，嗅觉",
+    "meaning_en": "to smell, to perceive",
+    "examples": ["scentful", "scent"]
+  },
+  {
+    "root": "cult",
+    "meaning_cn": "耕种，培养",
+    "meaning_en": "to cultivate, to grow",
+    "examples": ["culture", "cultivate", "agriculture"]
+  },
+  {
+    "root": "ampl",
+    "meaning_cn": "放大，扩展",
+    "meaning_en": "to enlarge, to expand",
+    "examples": ["amplify", "amplitude", "amplification"]
+  },
+  {
+    "root": "prot/proto",
+    "meaning_cn": "最初的，原始的",
+    "meaning_en": "to be first, to be original",
+    "examples": ["prototype", "protocol", "protein"]
+  },
+  {
+    "root": "empt/em",
+    "meaning_cn": "拿，获得",
+    "meaning_en": "to take, to seize",
+    "examples": ["exempt", "preempt"]
+  },
+  {
+    "root": "tard",
+    "meaning_cn": "迟缓，拖延，慢",
+    "meaning_en": "to be slow, to delay",
+    "examples": ["tardy", "retard", "detard"]
+  },
+  {
+    "root": "mend",
+    "meaning_cn": "修补，改善",
+    "meaning_en": "to repair, to improve",
+    "examples": ["amend", "mend", "emend"]
+  },
+  {
+    "root": "ana",
+    "meaning_cn": "在旁，分开",
+    "meaning_en": "to enlarge, to expand",
+    "examples": ["analysis"]
+  },
+  {
+    "root": "log",
+    "meaning_cn": "学说，说话",
+    "meaning_en": "to speak, to say",
+    "examples": ["dialogue", "monologue", "prologue"]
+  },
+  {
+    "root": "san",
+    "meaning_cn": "健康的（精神上）",
+    "meaning_en": "to be healthy (mentally)",
+    "examples": ["sanity", "insan"]
+  },
+  {
+    "root": "lev/liev",
+    "meaning_cn": "举起，提升",
+    "meaning_en": "to lift, to raise",
+    "examples": ["elevate", "levitate", "alleviate"]
+  },
+  {
+    "root": "mod",
+    "meaning_cn": "适度的，温和的,方法，风度，模式",
+    "meaning_en": "to be moderate, to be mild",
+    "examples": ["moderate", "modest", "modulation"]
+  },
+  {
+    "root": "ob/oc/of/op",
+    "meaning_cn": "反对，朝，向",
+    "meaning_en": "to oppose, to face",
+    "examples": ["obstruct", "occur", "offer", "opposite"]
+  },
+  {
+    "root": "cur/curr/curs/cours",
+    "meaning_cn": "发生，奔跑",
+    "meaning_en": "to run, to flow",
+    "examples": ["current", "currency", "course"]
+  },
+  {
+    "root": "neg",
+    "meaning_cn": "否定，拒绝",
+    "meaning_en": "to deny, to refuse",
+    "examples": ["negative", "negate", "renegade"]
+  },
+  {
+    "root": "liber",
+    "meaning_cn": "自由",
+    "meaning_en": "to be free",
+    "examples": ["liberate", "liberty", "liberal"]
+  },
+  {
+    "root": "soci",
+    "meaning_cn": "社会的，社交的",
+    "meaning_en": "to be social, to associate",
+    "examples": ["society", "socialize", "associate"]
+  },
+  {
+    "root": "ent/ess/est",
+    "meaning_cn": "存在",
+    "meaning_en": "to exist",
+    "examples": ["existent", "essence", "establish"]
+  },
+  {
+    "root": "per",
+    "meaning_cn": "完全，始终",
+    "meaning_en": "to be complete, to be always",
+    "examples": ["permanent", "perpetual", "pervasive"]
+  },
+  {
+    "root": "hum/hom",
+    "meaning_cn": "人类，土地，人",
+    "meaning_en": "human",
+    "examples": ["humane", "homesick", "homemade"]
+  },
+  {
+    "root": "tort",
+    "meaning_cn": "扭曲",
+    "meaning_en": "to twist",
+    "examples": ["contort", "distort", "torture"]
+  },
+  {
+    "root": "mort",
+    "meaning_cn": "死亡",
+    "meaning_en": "to die",
+    "examples": ["mortal", "mortuary", "immortal"]
+  },
+  {
+    "root": "arch/archy",
+    "meaning_cn": "统治，首要",
+    "meaning_en": "to rule, to be first",
+    "examples": ["archenemy", "monarchy", "hierarchy"]
+  },
+  {
+    "root": "celebr",
+    "meaning_cn": "荣誉，庆祝",
+    "meaning_en": "to honor, to celebrate",
+    "examples": ["celebrate", "celebration", "celebrity"]
+  },
+  {
+    "root": "fend/fens",
+    "meaning_cn": "打击",
+    "meaning_en": "to defend",
+    "examples": ["defend", "defense", "defendant"]
+  },
+  {
+    "root": "de",
+    "meaning_cn": "反转，离开",
+    "meaning_en": "to reverse, to depart",
+    "examples": ["depart", "defer", "detract"]
+  },
+  {
+    "root": "pass/pat",
+    "meaning_cn": "忍受，感情",
+    "meaning_en": "to endure, to feel",
+    "examples": ["passion", "compassion", "patient"]
+  },
+  {
+    "root": "scop",
+    "meaning_cn": "观察",
+    "meaning_en": "to observe",
+    "examples": ["telescope", "microscope", "periscope"]
+  },
+  {
+    "root": "peri",
+    "meaning_cn": "周围",
+    "meaning_en": "to surround",
+    "examples": ["periscope", "perimeter", "period"]
+  },
+  {
+    "root": "viv/vit",
+    "meaning_cn": "生存，生命",
+    "meaning_en": "to live, to be alive",
+    "examples": ["vivid", "revive", "vitamin"]
+  },
+  {
+    "root": "chron",
+    "meaning_cn": "时间",
+    "meaning_en": "time",
+    "examples": ["chronicle", "chronic", "chronological"]
+  },
+  {
+    "root": "her/hes",
+    "meaning_cn": "黏附",
+    "meaning_en": "to adhere",
+    "examples": ["adhere", "cohere", "inherent"]
+  },
+  {
+    "root": "ambi",
+    "meaning_cn": "两个，两种，两边，周围",
+    "meaning_en": "both, on both sides",
+    "examples": ["ambiguous", "ambiguity", "ambient"]
+  },
+  {
+    "root": "ced/ceed/cess",
+    "meaning_cn": "走开，退，屈服",
+    "meaning_en": "to yield, to go away",
+    "examples": ["precede", "concede", "cessation"]
+  },
+  {
+    "root": "ann/enn",
+    "meaning_cn": "一年",
+    "meaning_en": "year",
+    "examples": ["annual", "anniversary", "semiannual"]
+  },
+  {
+    "root": "cur",
+    "meaning_cn": "关心",
+    "meaning_en": "to care",
+    "examples": ["curious", "curiosity", "incur"]
+  },
+  {
+    "root": "reg",
+    "meaning_cn": "规则，统治",
+    "meaning_en": "to rule, to govern",
+    "examples": ["regulate", "regime", "regiment"]
+  },
+  {
+    "root": "ultra",
+    "meaning_cn": "超越，极端的",
+    "meaning_en": "to go beyond, extreme",
+    "examples": ["ultrasonic", "ultramarine", "ultrapass"]
+  },
+  {
+    "root": "tent/tend/tens",
+    "meaning_cn": "延展，伸展",
+    "meaning_en": "to stretch, to extend",
+    "examples": ["tension", "tendril", "pretend"]
+  },
+  {
+    "root": "pro",
+    "meaning_cn": "向前，支持，更多",
+    "meaning_en": "to go forward, in favor of",
+    "examples": ["promote", "progress", "proactive"]
+  },
+  {
+    "root": "cre/creas",
+    "meaning_cn": "增长，产生",
+    "meaning_en": "to grow, to create",
+    "examples": ["increase", "creation", "recreate"]
+  },
+  {
+    "root": "sci",
+    "meaning_cn": "知道",
+    "meaning_en": "to know",
+    "examples": ["science", "conscience", "conscious"]
+  },
+  {
+    "root": "fic/fac/fact",
+    "meaning_cn": "做",
+    "meaning_en": "to do",
+    "examples": ["manufacture", "factory", "artifact"]
+  },
+  {
+    "root": "dom/domin",
+    "meaning_cn": "家，控制",
+    "meaning_en": "to rule, to control",
+    "examples": ["dominate", "dominion", "domestic"]
+  },
+  {
+    "root": "dorm",
+    "meaning_cn": "睡眠",
+    "meaning_en": "dormitory",
+    "examples": ["dormitory", "dormancy", "dormant"]
+  },
+  {
+    "root": "ex",
+    "meaning_cn": "外部，出去",
+    "meaning_en": "out of, away from",
+    "examples": ["exit", "expect", "exclude"]
+  },
+  {
+    "root": "in",
+    "meaning_cn": "内部，里面,向内",
+    "meaning_en": "inside, within",
+    "examples": ["include", "inspect", "internal"]
+  },
+  {
+    "root": "re",
+    "meaning_cn": "重新，回",
+    "meaning_en": "again, back",
+    "examples": ["return", "replay", "respect"]
+  },
+  {
+    "root": "tele",
+    "meaning_cn": "远程",
+    "meaning_en": "distant",
+    "examples": ["telescope", "television", "telephone"]
+  },
+  {
+    "root": "com",
+    "meaning_cn": "共同，一起",
+    "meaning_en": "together, with",
+    "examples": ["combine", "community", "company"]
+  },
+  {
+    "root": "astr/aster/astro",
+    "meaning_cn": "星星",
+    "meaning_en": "star",
+    "examples": ["astronomy", "asteroid", "astronaut"]
+  },
+  {
+    "root": "sub/suf/sugg/suss",
+    "meaning_cn": "潜在，在下面",
+    "meaning_en": "under, below",
+    "examples": ["submarine", "suffer", "suggest"]
+  },
+  {
+    "root": "sym/sem/sim/same",
+    "meaning_cn": "相同",
+    "meaning_en": "same",
+    "examples": ["symmetry", "semantics", "similar"]
+  },
+  {
+    "root": "ad",
+    "meaning_cn": "加强，在旁边",
+    "meaning_en": "to, toward",
+    "examples": ["adapt", "add", "advocate"]
+  },
+  {
+    "root": "apt/ept",
+    "meaning_cn": "适应，适合",
+    "meaning_en": "suitable",
+    "examples": ["aptitude", "adapt", "inept"]
+  },
+  {
+    "root": "ab",
+    "meaning_cn": "远离，否定",
+    "meaning_en": "away from, against",
+    "examples": ["abnormal", "absent", "abstract"]
+  },
+  {
+    "root": "v",
+    "meaning_cn": "v开头单词表示男性的力量暴力生命力",
+    "meaning_en": "v",
+    "examples": ["vigor", "violent", "value"]
+  },
+  {
+    "root": "a",
+    "meaning_cn": "a放在词首表示加强,还可以表示否定",
+    "meaning_en": "to, toward",
+    "examples": ["avenge", "ascend", "abound"]
+  },
+  {
+    "root": "-vore",
+    "meaning_cn": "吃，吞",
+    "meaning_en": "to eat",
+    "examples": ["carnivore", "herbivore", "omnivore"]
+  },
+  {
+    "root": "volv",
+    "meaning_cn": "卷，旋转",
+    "meaning_en": "to roll, to turn",
+    "examples": ["revolve", "volume", "involve"]
+  },
+  {
+    "root": "vac",
+    "meaning_cn": "空，缺",
+    "meaning_en": "empty, void",
+    "examples": ["vacuum", "vacate", "vacation"]
+  },
+  {
+    "root": "temp",
+    "meaning_cn": "吸引，崇拜",
+    "meaning_en": "to attract, to worship",
+    "examples": ["temple", "temporary", "contempt"]
+  },
+  {
+    "root": "tract/track",
+    "meaning_cn": "轨道，轨迹，拉",
+    "meaning_en": "to pull, to draw",
+    "examples": ["attract", "tractor", "contract"]
+  },
+  {
+    "root": "-strain",
+    "meaning_cn": "拉紧，压力",
+    "meaning_en": "to draw tight",
+    "examples": ["strain", "restraint", "constraint"]
+  },
+  {
+    "root": "hibit",
+    "meaning_cn": "拿",
+    "meaning_en": "to hold",
+    "examples": ["exhibit", "inhibit", "prohibit"]
+  },
+  {
+    "root": "for",
+    "meaning_cn": "离开",
+    "meaning_en": "to leave",
+    "examples": ["forgo", "forbid", "forsake"]
+  },
+  {
+    "root": "fuge",
+    "meaning_cn": "驱赶，逃避",
+    "meaning_en": "to flee",
+    "examples": ["refuge", "refugee"]
+  },
+  {
+    "root": "lance",
+    "meaning_cn": "长矛",
+    "meaning_en": "to hold",
+    "examples": ["freelance"]
+  },
+  {
+    "root": "herd",
+    "meaning_cn": "群体，一群",
+    "meaning_en": "to gather",
+    "examples": ["herd", "sheepherd dog", "sheep without a sheepherd乌合之众"]
+  },
+  {
+    "root": "trib",
+    "meaning_cn": "部落，给予",
+    "meaning_en": "to assign, to allot",
+    "examples": ["contribute", "distribute", "attribute"]
+  },
+  {
+    "root": "-tain",
+    "meaning_cn": "拿",
+    "meaning_en": "to hold",
+    "examples": ["attain", "entertain", "contain"]
+  },
+  {
+    "root": "cede/ced/ceed/cess/gress/ped",
+    "meaning_cn": "向前，向前走",
+    "meaning_en": "to go, to yield",
+    "examples": ["exceed", "proceed", "success"]
+  },
+  {
+    "root": "alter",
+    "meaning_cn": "改变，转变",
+    "meaning_en": "to change",
+    "examples": ["alter", "alternative"]
+  },
+  {
+    "root": "pri/prim",
+    "meaning_cn": "第一的，首要的",
+    "meaning_en": "first, primary",
+    "examples": ["premier", "primary", "prior"]
+  },
+  {
+    "root": "fore",
+    "meaning_cn": "在前，之前",
+    "meaning_en": "before, in front of",
+    "examples": ["foresee", "forerunner", "forehead"]
+  },
+  {
+    "root": "with",
+    "meaning_cn": "回",
+    "meaning_en": "back",
+    "examples": ["withdraw", "withhold", "withstand"]
+  },
+  {
+    "root": "vary",
+    "meaning_cn": "变化",
+    "meaning_en": "to change",
+    "examples": ["variety", "variable", "vary"]
+  },
+  {
+    "root": "acc",
+    "meaning_cn": "在开头表加强",
+    "meaning_en": "to change",
+    "examples": ["accelerate", "accentuate", "accede"]
+  },
+  {
+    "root": "-ism",
+    "meaning_cn": "主义，信仰",
+    "meaning_en": "a belief or doctrine",
+    "examples": ["realism", "idealism", "materialism"]
+  },
+  {
+    "root": "fact/fac/fect/fic",
+    "meaning_cn": "做，制造",
+    "meaning_en": "to make, to do",
+    "examples": ["factory", "manufacture", "satisfaction"]
+  },
+  {
+    "root": "bene",
+    "meaning_cn": "好，善",
+    "meaning_en": "good, well",
+    "examples": ["benefit", "benevolent", "benefactor"]
+  },
+  {
+    "root": "man",
+    "meaning_cn": "手",
+    "meaning_en": "hand",
+    "examples": ["manual", "manipulate", "manuscript"]
+  },
+  {
+    "root": "sacri",
+    "meaning_cn": "献祭,神圣化",
+    "meaning_en": "to make sacred",
+    "examples": ["sacrifice", "sacred"]
+  },
+  {
+    "root": "counter",
+    "meaning_cn": "反对，对应",
+    "meaning_en": "to oppose, to resist",
+    "examples": ["counteract", "counterargument", "counterpart"]
+  },
+  {
+    "root": "cyclo",
+    "meaning_cn": "循环",
+    "meaning_en": "to cycle",
+    "examples": ["cyclone", "encyclopedia", "bicycle"]
+  },
+  {
+    "root": "pave",
+    "meaning_cn": "铺设",
+    "meaning_en": "to cover with a firm surface",
+    "examples": ["pavement", "repave", "paved"]
+  },
+  {
+    "root": "lav/luv/lau",
+    "meaning_cn": "冲洗",
+    "meaning_en": "to wash",
+    "examples": ["lavatory", "dilute", "laundry", "lavish"]
+  },
+  {
+    "root": "sis",
+    "meaning_cn": "分析，分解",
+    "meaning_en": "to analyze, to break down",
+    "examples": ["analysis", "synthesis", "dissipate"]
+  },
+  {
+    "root": "the/thea",
+    "meaning_cn": "看",
+    "meaning_en": "to see",
+    "examples": ["theater", "theory", "thesis"]
+  },
+  {
+    "root": "host",
+    "meaning_cn": "敌人",
+    "meaning_en": "to host",
+    "examples": ["hostile", "hostage"]
+  },
+  {
+    "root": "hosp",
+    "meaning_cn": "客人",
+    "meaning_en": "to host",
+    "examples": ["hospital", "host"]
   }
-
+  
 ]

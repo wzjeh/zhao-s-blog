@@ -3,8 +3,9 @@ import React, { useEffect, useState } from "react";
 type RootEntry = {
   root: string;
   meaning_ja?: string;
+  meaning_zh?: string;
+  meaning_cn?: string;
   meaning_en?: string;
-  meaning_cn?: string;  // 可以扩展支持中文
   examples: string[];
 };
 
@@ -23,13 +24,10 @@ const RootTable = ({ lang, dataUrl }: RootTableProps) => {
       .catch((err) => console.error("Failed to load data:", err));
   }, [dataUrl]);
 
-  // 动态设置第二列标题和内容字段
-  const secondColTitle = lang === "ja" ? "意味（日本語）" : "Meaning (CN)";
-  // 英文时显示中文意思字段 meaning_cn，日文时显示 meaning_ja
+  // Dynamic second column title and content
+  const secondColTitle = lang === "ja" ? "意味（中国語）" : "Meaning (ZH)";
   const getSecondColValue = (entry: RootEntry) => {
-    if (lang === "ja") return entry.meaning_ja || "";
-    if (lang === "en") return entry.meaning_cn || "";
-    return "";
+    return lang === "ja" ? entry.meaning_zh || "" : entry.meaning_cn || "";
   };
 
   return (
@@ -39,7 +37,6 @@ const RootTable = ({ lang, dataUrl }: RootTableProps) => {
           <tr>
             <th className="border p-2">{lang === "ja" ? "語根" : "Root"}</th>
             <th className="border p-2">{secondColTitle}</th>
-            <th className="border p-2">{lang === "ja" ? "意味（英語）" : "Meaning (EN)"}</th>
             <th className="border p-2">{lang === "ja" ? "例" : "Examples"}</th>
           </tr>
         </thead>
@@ -48,7 +45,6 @@ const RootTable = ({ lang, dataUrl }: RootTableProps) => {
             <tr key={i} className="hover:bg-gray-50">
               <td className="border p-2 text-center">{entry.root}</td>
               <td className="border p-2">{getSecondColValue(entry)}</td>
-              <td className="border p-2">{entry.meaning_en}</td>
               <td className="border p-2">{entry.examples.join("、")}</td>
             </tr>
           ))}

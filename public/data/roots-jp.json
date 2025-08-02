@@ -1,32 +1,2726 @@
 [
   {
     "root": "やま",
-    "meaning_ja": "山",
-    "meaning_en": "mountain",
-    "examples": ["山 (やま)", "山頂 (さんちょう)"]
+    "meaning_ja": "山、山岳",
+    "meaning_zh": "山、山岳",
+    "examples": ["山 (やま)", "山頂 (さんちょう)", "登山 (とざん)"]
   },
   {
     "root": "かわ",
-    "meaning_ja": "川",
-    "meaning_en": "river",
-    "examples": ["川 (かわ)", "川辺 (かわべ)"]
+    "meaning_ja": "川、河川",
+    "meaning_zh": "河、河流",
+    "examples": ["川 (かわ)", "川辺 (かわべ)", "川岸 (かわぎし)"]
   },
   {
     "root": "ひ",
-    "meaning_ja": "火",
-    "meaning_en": "fire",
-    "examples": ["火 (ひ)", "火山 (かざん)"]
+    "meaning_ja": "火、火曜日",
+    "meaning_zh": "火、星期二",
+    "examples": ["火 (ひ)", "火山 (かざん)", "火曜日 (かようび)"]
   },
   {
     "root": "みず",
-    "meaning_ja": "水",
-    "meaning_en": "water",
-    "examples": ["水 (みず)", "水道 (すいどう)"]
+    "meaning_ja": "水、水曜日",
+    "meaning_zh": "水、星期三",
+    "examples": ["水 (みず)", "水道 (すいどう)", "水曜日 (すいようび)"]
   },
   {
     "root": "そら",
-    "meaning_ja": "空",
-    "meaning_en": "sky",
+    "meaning_ja": "空、空気",
+    "meaning_zh": "天空、空气",
     "examples": ["空 (そら)", "空港 (くうこう)"]
+  },
+  {
+    "root": "つち",
+    "meaning_ja": "土、土曜日、地面",
+    "meaning_zh": "土、星期六、土地",
+    "examples": ["土 (つち)", "土壌 (どじょう)", "土曜日 (どようび)"]
+  },
+  {
+    "root": "き",
+    "meaning_ja": "木、木曜日",
+    "meaning_zh": "树木、星期四",
+    "examples": ["木 (き)", "木材 (もくざい)", "木曜日 (もくようび)"]
+  },
+  {
+    "root": "かね",
+    "meaning_ja": "金、金曜日、金属、金銭",
+    "meaning_zh": "金、星期五、金属、钱财",
+    "examples": ["金 (かね)", "金属 (きんぞく)", "金曜日 (きんようび)", "金貨 (きんか)"]
+  },
+  {
+    "root": "つき",
+    "meaning_ja": "月、月曜日、月亮、月份",
+    "meaning_zh": "月亮、月份、星期一",
+    "examples": ["月 (つき)", "月光 (げっこう)", "今月 (こんげつ)", "月曜日 (げつようび)"]
+  },
+  {
+    "root": "ひ",
+    "meaning_ja": "太陽、昼、日期、日本",
+    "meaning_zh": "太阳、白天、日期、日本",
+    "examples": ["日 (ひ)", "日記 (にっき)", "今日 (きょう)", "日曜日 (にちようび)"]
+  },
+  {
+    "root": "あめ",
+    "meaning_ja": "雨、降雨",
+    "meaning_zh": "雨、降雨",
+    "examples": ["雨 (あめ)", "雨天 (うてん)"]
+  },
+  {
+    "root": "かぜ",
+    "meaning_ja": "風、風邪、風向き",
+    "meaning_zh": "风、感冒、风向",
+    "examples": ["風 (かぜ)", "風速 (ふうそく)", "台風 (たいふう)"]
+  },
+  {
+    "root": "ゆき",
+    "meaning_ja": "雪、雪景色、降雪",
+    "meaning_zh": "雪、雪景、降雪",
+    "examples": ["雪 (ゆき)", "雪山 (ゆきやま)", "雪国 (ゆきぐに)"]
+  },
+  {
+    "root": "ほし",
+    "meaning_ja": "星、星座",
+    "meaning_zh": "星、星座",
+    "examples": ["星 (ほし)", "明星 (みょうじょう)", "星空 (ほしぞら)"]
+  },
+  {
+    "root": "ひかり",
+    "meaning_ja": "光、光線、光る",
+    "meaning_zh": "光、光线、发光",
+    "examples": ["光 (ひかり)", "光景 (こうけい)", "光線 (こうせん)"]
+  },
+  {
+    "root": "おと",
+    "meaning_ja": "音、音楽、音声",
+    "meaning_zh": "声音、音乐、音响",
+    "examples": ["音 (おと)", "音楽 (おんがく)"]
+  },
+  {
+    "root": "こえ",
+    "meaning_ja": "声、発声",
+    "meaning_zh": "声音、发声",
+    "examples": ["声 (こえ)", "声優 (せいゆう)"]
+  },
+  {
+    "root": "いろ",
+    "meaning_ja": "色、色彩",
+    "meaning_zh": "颜色、色彩",
+    "examples": ["色 (いろ)", "色彩 (しきさい)", "色紙 (しきし)"]
+  },
+  {
+    "root": "かたち",
+    "meaning_ja": "形、形状",
+    "meaning_zh": "形状、外形",
+    "examples": ["形 (かたち)", "形状 (けいじょう)", "形見 (かたみ)"]
+  },
+  {
+    "root": "からだ",
+    "meaning_ja": "体、身体",
+    "meaning_zh": "身体、体格",
+    "examples": ["体 (からだ)", "体操 (たいそう)", "体育 (たいいく)"]
+  },
+  {
+    "root": "こころ",
+    "meaning_ja": "心、心臓",
+    "meaning_zh": "心、心脏",
+    "examples": ["心 (こころ)", "心配 (しんぱい)", "心臓 (しんぞう)"]
+  },
+  {
+    "root": "て",
+    "meaning_ja": "手、手段",
+    "meaning_zh": "手、手段",
+    "examples": ["手 (て)", "手紙 (てがみ)", "手紙 (てがみ)"]
+  },
+  {
+    "root": "あし",
+    "meaning_ja": "足、脚",
+    "meaning_zh": "脚、足",
+    "examples": ["足 (あし)", "足音 (あしおと)", "足跡 (あしあと)"]
+  },
+  {
+    "root": "め",
+    "meaning_ja": "目、視線",
+    "meaning_zh": "眼睛、视线",
+    "examples": ["目 (め)", "目標 (もくひょう)", "目的 (もくてき)"]
+  },
+  {
+    "root": "みみ",
+    "meaning_ja": "耳、聴覚",
+    "meaning_zh": "耳朵、听觉",
+    "examples": ["耳 (みみ)", "耳鼻科 (じびか)"]
+  },
+  {
+    "root": "くち",
+    "meaning_ja": "口、入り口",
+    "meaning_zh": "嘴、入口",
+    "examples": ["口 (くち)", "口座 (こうざ)", "人口 (じんこう)"]
+  },
+  {
+    "root": "はな",
+    "meaning_ja": "鼻、嗅覚",
+    "meaning_zh": "鼻子、嗅觉",
+    "examples": ["鼻 (はな)", "鼻水 (はなみず)"]
+  },
+  {
+    "root": "は",
+    "meaning_ja": "歯、歯科",
+    "meaning_zh": "牙齿、牙科",
+    "examples": ["歯 (は)", "歯磨き (はみがき)"]
+  },
+  {
+    "root": "かみ",
+    "meaning_ja": "髪、髪の毛",
+    "meaning_zh": "头发、发丝",
+    "examples": ["髪 (かみ)", "髪型 (かみがた)"]
+  },
+  {
+    "root": "かお",
+    "meaning_ja": "顔、表情",
+    "meaning_zh": "脸、表情",
+    "examples": ["顔 (かお)", "顔色 (かおいろ)"]
+  },
+  {
+    "root": "たりる",
+    "meaning_ja": "足りる、十分である",
+    "meaning_zh": "足够、充足",
+    "examples": ["足りる (たりる)"]
+  },
+  {
+    "root": "ちから",
+    "meaning_ja": "力、能力",
+    "meaning_zh": "力量、能力",
+    "examples": ["力 (ちから)", "力士 (りきし)", "努力 (どりょく)"]
+  },
+  {
+    "root": "おお",
+    "meaning_ja": "大きい、大きさ、大きな",
+    "meaning_zh": "大、大的",
+    "examples": ["大 (おお)", "大人 (おとな)", "大学 (だいがく)"]
+  },
+  {
+    "root": "ちい",
+    "meaning_ja": "小さい、小ささ、小さな",
+    "meaning_zh": "小、小的",
+    "examples": ["小 (ちい)", "小学校 (しょうがっこう)"]
+  },
+  {
+    "root": "おお",
+    "meaning_ja": "多い、多数",
+    "meaning_zh": "多、多的",
+    "examples": ["多 (おお)", "多様 (たよう)"]
+  },
+  {
+    "root": "すく",
+    "meaning_ja": "少ない、少し",
+    "meaning_zh": "少、少的",
+    "examples": ["少 (すく)", "少数 (しょうすう)"]
+  },
+  {
+    "root": "あたら",
+    "meaning_ja": "新しい、新鮮、新規",
+    "meaning_zh": "新、新的",
+    "examples": ["新 (あたら)", "新年 (しんねん)", "新聞 (しんぶん)"]
+  },
+  {
+    "root": "ふる",
+    "meaning_ja": "古い、古代、古老",
+    "meaning_zh": "旧、古老、古代",
+    "examples": ["古 (ふる)", "古代 (こだい)", "古本 (ふるほん)"]
+  },
+  {
+    "root": "なが",
+    "meaning_ja": "長い、長さ",
+    "meaning_zh": "长、长度",
+    "examples": ["長 (なが)", "長所 (ちょうしょ)", "長編 (ちょうへん)"]
+  },
+  {
+    "root": "みじか",
+    "meaning_ja": "短い、短さ",
+    "meaning_zh": "短、短的",
+    "examples": ["短 (みじか)", "短所 (たんしょ)"]
+  },
+  {
+    "root": "たか",
+    "meaning_ja": "高い、高さ",
+    "meaning_zh": "高、高的、高度",
+    "examples": ["高 (たか)", "高山 (こうざん)", "高校 (こうこう)"]
+  },
+  {
+    "root": "やす",
+    "meaning_ja": "安い、安心",
+    "meaning_zh": "便宜、安心",
+    "examples": ["安 (やす)", "安全 (あんぜん)"]
+  },
+  {
+    "root": "あか",
+    "meaning_ja": "明るい、明確",
+    "meaning_zh": "明亮、明确",
+    "examples": ["明 (あか)", "明日 (あした)"]
+  },
+  {
+    "root": "くら",
+    "meaning_ja": "暗い、暗黒",
+    "meaning_zh": "黑暗、阴暗",
+    "examples": ["暗 (くら)", "暗号 (あんごう)"]
+  },
+  {
+    "root": "しろ",
+    "meaning_ja": "白い、白色、白",
+    "meaning_zh": "白色、白的",
+    "examples": ["白 (しろ)", "白紙 (はくし)", "白紙 (はくし)"]
+  },
+  {
+    "root": "くろ",
+    "meaning_ja": "黒い、黒色",
+    "meaning_zh": "黑色、黑的",
+    "examples": ["黒 (くろ)", "黒板 (こくばん)"]
+  },
+  {
+    "root": "あお",
+    "meaning_ja": "青い、青色、青",
+    "meaning_zh": "蓝色、青的、蓝",
+    "examples": ["青 (あお)", "青空 (あおぞら)", "青空 (あおぞら)"]
+  },
+  {
+    "root": "あか",
+    "meaning_ja": "赤い、赤色、赤",
+    "meaning_zh": "红色、红的",
+    "examples": ["赤 (あか)", "赤ちゃん (あかちゃん)", "赤信号 (あかしんごう)"]
+  },
+  {
+    "root": "みどり",
+    "meaning_ja": "緑、緑色",
+    "meaning_zh": "绿色、绿的",
+    "examples": ["緑 (みどり)", "緑茶 (りょくちゃ)"]
+  },
+  {
+    "root": "ちゃ",
+    "meaning_ja": "茶、茶色、お茶",
+    "meaning_zh": "茶、茶色、茶叶",
+    "examples": ["茶 (ちゃ)", "お茶 (おちゃ)", "お茶 (おちゃ)"]
+  },
+  {
+    "root": "かず",
+    "meaning_ja": "数、数字",
+    "meaning_zh": "数、数字",
+    "examples": ["数 (かず)", "数値 (すうち)", "数学 (すうがく)"]
+  },
+  {
+    "root": "とき",
+    "meaning_ja": "時間、時刻",
+    "meaning_zh": "时间、时刻",
+    "examples": ["時 (とき)", "時間 (じかん)", "時計 (とけい)"]
+  },
+  {
+    "root": "わ",
+    "meaning_ja": "分ける、分かる",
+    "meaning_zh": "分开、理解、明白",
+    "examples": ["分 (わ)", "分数 (ぶんすう)", "十分 (じゅっぷん)", "分間 (ふんかん)"]
+  },
+  {
+    "root": "びょう",
+    "meaning_ja": "秒、時間の単位",
+    "meaning_zh": "秒、时间单位",
+    "examples": ["秒 (びょう)", "秒針 (びょうしん)"]
+  },
+  {
+    "root": "とし",
+    "meaning_ja": "年、年度、年齢",
+    "meaning_zh": "年、年度、年龄",
+    "examples": ["年 (とし)", "今年 (ことし)", "年月 (ねんげつ)"]
+  },
+  {
+    "root": "しゅう",
+    "meaning_ja": "週、週間",
+    "meaning_zh": "周、星期",
+    "examples": ["週 (しゅう)", "週末 (しゅうまつ)"]
+  },
+  {
+    "root": "はん",
+    "meaning_ja": "半分、半ば",
+    "meaning_zh": "一半、半途",
+    "examples": ["半 (はん)", "半年 (はんとし)", "半日 (はんにち)"]
+  },
+  {
+    "root": "うえ",
+    "meaning_ja": "上、上がる、上げる",
+    "meaning_zh": "上、上升",
+    "examples": ["上 (うえ)", "上手 (じょうず)", "上着 (うわぎ)"]
+  },
+  {
+    "root": "した",
+    "meaning_ja": "下、下がる、下る",
+    "meaning_zh": "下、下降",
+    "examples": ["下 (した)", "下手 (へた)", "下車 (げしゃ)"]
+  },
+  {
+    "root": "ひだり",
+    "meaning_ja": "左、左側",
+    "meaning_zh": "左、左边、左侧",
+    "examples": ["左 (ひだり)", "左手 (ひだりて)"]
+  },
+  {
+    "root": "みぎ",
+    "meaning_ja": "右、右側",
+    "meaning_zh": "右、右边、右侧",
+    "examples": ["右 (みぎ)", "右手 (みぎて)"]
+  },
+  {
+    "root": "なか",
+    "meaning_ja": "中、中央、中間",
+    "meaning_zh": "中间、中心",
+    "examples": ["中 (なか)", "中学校 (ちゅうがっこう)", "中学 (ちゅうがく)"]
+  },
+  {
+    "root": "そと",
+    "meaning_ja": "外、外側",
+    "meaning_zh": "外面、外边、外部",
+    "examples": ["外 (そと)", "外国 (がいこく)", "外国人 (がいこくじん)"]
+  },
+  {
+    "root": "まえ",
+    "meaning_ja": "前、前方",
+    "meaning_zh": "前面、前方",
+    "examples": ["前 (まえ)", "前日 (ぜんじつ)", "前進 (ぜんしん)", "午前 (ごぜん)"]
+  },
+  {
+    "root": "あと",
+    "meaning_ja": "後ろ、後方",
+    "meaning_zh": "后面、后方",
+    "examples": ["後 (あと)", "後日 (ごじつ)", "後悔 (こうかい)", "午後 (ごご)"]
+  },
+  {
+    "root": "うち",
+    "meaning_ja": "内、内部、内側",
+    "meaning_zh": "内部、里面",
+    "examples": ["内 (うち)", "内容 (ないよう)", "国内 (こくない)"]
+  },
+  {
+    "root": "ひと",
+    "meaning_ja": "数字の「一」",
+    "meaning_zh": "数字“一”",
+    "examples": ["一 (ひと)", "一人 (ひとり)"]
+  },
+  {
+    "root": "ふた",
+    "meaning_ja": "数字の「二」",
+    "meaning_zh": "数字“二”",
+    "examples": ["二 (ふた)", "二年 (にねん)"]
+  },
+  {
+    "root": "み",
+    "meaning_ja": "数字の「三」",
+    "meaning_zh": "数字“三”",
+    "examples": ["三 (み)", "三日 (みっか)"]
+  },
+  {
+    "root": "よん",
+    "meaning_ja": "数字の「四」",
+    "meaning_zh": "数字“四”",
+    "examples": ["四 (よん)", "四月 (しがつ)"]
+  },
+  {
+    "root": "いつ",
+    "meaning_ja": "数字の「五」",
+    "meaning_zh": "数字“五”",
+    "examples": ["五 (いつ)", "五月 (ごがつ)"]
+  },
+  {
+    "root": "む",
+    "meaning_ja": "数字の「六」",
+    "meaning_zh": "数字“六”",
+    "examples": ["六 (む)", "六年 (ろくねん)"]
+  },
+  {
+    "root": "なな",
+    "meaning_ja": "数字の「七」",
+    "meaning_zh": "数字“七”",
+    "examples": ["七 (なな)", "七夕 (たなばた)"]
+  },
+  {
+    "root": "や",
+    "meaning_ja": "数字の「八」",
+    "meaning_zh": "数字“八”",
+    "examples": ["八 (や)", "八日 (ようか)"]
+  },
+  {
+    "root": "ここの",
+    "meaning_ja": "数字の「九」",
+    "meaning_zh": "数字“九”",
+    "examples": ["九 (ここの)", "九月 (くがつ)"]
+  },
+  {
+    "root": "とお",
+    "meaning_ja": "数字の「十」",
+    "meaning_zh": "数字“十”",
+    "examples": ["十 (とお)", "十日 (とおか)"]
+  },
+  {
+    "root": "ひゃく",
+    "meaning_ja": "数字の「百」",
+    "meaning_zh": "数字“百”",
+    "examples": ["百 (ひゃく)", "百円 (ひゃくえん)"]
+  },
+  {
+    "root": "せん",
+    "meaning_ja": "数字の「千」",
+    "meaning_zh": "数字“千”",
+    "examples": ["千 (せん)", "千人 (せんにん)"]
+  },
+  {
+    "root": "よろず",
+    "meaning_ja": "数字の「万」",
+    "meaning_zh": "数字“万”",
+    "examples": ["万 (よろず)", "一万 (いちまん)"]
+  },
+  {
+    "root": "まる",
+    "meaning_ja": "円、丸い、貨幣単位",
+    "meaning_zh": "圆、圆形、货币单位",
+    "examples": ["円 (まる)", "円形 (えんけい)"]
+  },
+  {
+    "root": "ひと",
+    "meaning_ja": "人、他人、人間",
+    "meaning_zh": "人、他人",
+    "examples": ["人 (ひと)", "人間 (にんげん)"]
+  },
+  {
+    "root": "な",
+    "meaning_ja": "名前、名称",
+    "meaning_zh": "名字、名称",
+    "examples": ["名 (な)", "名前 (なまえ)"]
+  },
+  {
+    "root": "おんな",
+    "meaning_ja": "女、女性",
+    "meaning_zh": "女、女性",
+    "examples": ["女 (おんな)", "女子 (じょし)"]
+  },
+  {
+    "root": "おとこ",
+    "meaning_ja": "男、男性",
+    "meaning_zh": "男、男性",
+    "examples": ["男 (おとこ)", "男子 (だんし)"]
+  },
+  {
+    "root": "こ",
+    "meaning_ja": "子、子供",
+    "meaning_zh": "孩子、儿童",
+    "examples": ["子 (こ)", "子供 (こども)"]
+  },
+  {
+    "root": "み",
+    "meaning_ja": "見る、視界",
+    "meaning_zh": "看、视野",
+    "examples": ["見 (み)", "見学 (けんがく)"]
+  },
+  {
+    "root": "はい",
+    "meaning_ja": "入る、入れる",
+    "meaning_zh": "进入、放入",
+    "examples": ["入 (はい)", "入学 (にゅうがく)"]
+  },
+  {
+    "root": "で",
+    "meaning_ja": "出る、出す",
+    "meaning_zh": "出去、拿出",
+    "examples": ["出 (で)", "出口 (でぐち)"]
+  },
+  {
+    "root": "た",
+    "meaning_ja": "立つ、設立",
+    "meaning_zh": "站立、设立",
+    "examples": ["立 (た)", "国立 (こくりつ)"]
+  },
+  {
+    "root": "やす",
+    "meaning_ja": "休む、休息",
+    "meaning_zh": "休息、休假",
+    "examples": ["休 (やす)", "休日 (きゅうじつ)"]
+  },
+  {
+    "root": "さき",
+    "meaning_ja": "先、先に",
+    "meaning_zh": "前面、先前",
+    "examples": ["先 (さき)", "先生 (せんせい)"]
+  },
+  {
+    "root": "ゆう",
+    "meaning_ja": "夕方、夕暮れ",
+    "meaning_zh": "傍晚、黄昏",
+    "examples": ["夕 (ゆう)", "夕食 (ゆうしょく)"]
+  },
+  {
+    "root": "ほん",
+    "meaning_ja": "本、書物",
+    "meaning_zh": "书、书籍",
+    "examples": ["本 (ほん)", "本屋 (ほんや)"]
+  },
+  {
+    "root": "ふみ",
+    "meaning_ja": "文章、文学",
+    "meaning_zh": "文章、文学",
+    "examples": ["文 (ふみ)", "文学 (ぶんがく)"]
+  },
+  {
+    "root": "あざ",
+    "meaning_ja": "字、文字",
+    "meaning_zh": "字、文字",
+    "examples": ["字 (あざ)", "漢字 (かんじ)"]
+  },
+  {
+    "root": "まな",
+    "meaning_ja": "学ぶ、学校",
+    "meaning_zh": "学习、学校",
+    "examples": ["学 (まな)", "学生 (がくせい)"]
+  },
+  {
+    "root": "こう",
+    "meaning_ja": "学校、校舎",
+    "meaning_zh": "学校、校舍",
+    "examples": ["校 (こう)", "学校 (がっこう)"]
+  },
+  {
+    "root": "むら",
+    "meaning_ja": "村、集落",
+    "meaning_zh": "村庄、聚落",
+    "examples": ["村 (むら)", "村人 (むらひと)"]
+  },
+  {
+    "root": "まち",
+    "meaning_ja": "町、街",
+    "meaning_zh": "城镇、街道",
+    "examples": ["町 (まち)", "町中 (まちなか)"]
+  },
+  {
+    "root": "た",
+    "meaning_ja": "田んぼ、田園",
+    "meaning_zh": "稻田、田园",
+    "examples": ["田 (た)", "田舎 (いなか)"]
+  },
+  {
+    "root": "はやし",
+    "meaning_ja": "林、小さい森",
+    "meaning_zh": "树林、小森林",
+    "examples": ["林 (はやし)", "林間 (りんかん)"]
+  },
+  {
+    "root": "もり",
+    "meaning_ja": "森、森林",
+    "meaning_zh": "森林",
+    "examples": ["森 (もり)", "森林 (しんりん)"]
+  },
+  {
+    "root": "あま",
+    "meaning_ja": "天、天空",
+    "meaning_zh": "天、天空",
+    "examples": ["天 (あま)", "天気 (てんき)"]
+  },
+  {
+    "root": "き",
+    "meaning_ja": "気、天気、気分",
+    "meaning_zh": "气、天气、心情",
+    "examples": ["気 (き)", "気分 (きぶん)"]
+  },
+  {
+    "root": "はな",
+    "meaning_ja": "花、花びら",
+    "meaning_zh": "花、花瓣",
+    "examples": ["花 (はな)", "花見 (はなみ)"]
+  },
+  {
+    "root": "くさ",
+    "meaning_ja": "草、雑草",
+    "meaning_zh": "草、杂草",
+    "examples": ["草 (くさ)", "草原 (そうげん)"]
+  },
+  {
+    "root": "むし",
+    "meaning_ja": "虫、昆虫",
+    "meaning_zh": "虫、昆虫",
+    "examples": ["虫 (むし)", "虫歯 (むしば)"]
+  },
+  {
+    "root": "いぬ",
+    "meaning_ja": "犬、ペット",
+    "meaning_zh": "狗、宠物",
+    "examples": ["犬 (いぬ)", "犬小屋 (いぬごや)"]
+  },
+  {
+    "root": "かい",
+    "meaning_ja": "貝、貝殻",
+    "meaning_zh": "贝、贝壳",
+    "examples": ["貝 (かい)", "貝殻 (かいがら)"]
+  },
+  {
+    "root": "くるま",
+    "meaning_ja": "車、車両",
+    "meaning_zh": "车、车辆",
+    "examples": ["車 (くるま)", "自動車 (じどうしゃ)"]
+  },
+  {
+    "root": "いと",
+    "meaning_ja": "糸、繊維",
+    "meaning_zh": "线、纤维",
+    "examples": ["糸 (いと)", "糸巻 (いとまき)"]
+  },
+  {
+    "root": "た",
+    "meaning_ja": "食べる、食事",
+    "meaning_zh": "吃、饮食",
+    "examples": ["食 (た)", "食事 (しょくじ)"]
+  },
+  {
+    "root": "こめ",
+    "meaning_ja": "米、ご飯",
+    "meaning_zh": "米、饭",
+    "examples": ["米 (こめ)", "米粒 (こめつぶ)", "米国 (べいこく)"]
+  },
+  {
+    "root": "はや",
+    "meaning_ja": "早い、早朝",
+    "meaning_zh": "早、早晨",
+    "examples": ["早 (はや)", "早朝 (そうちょう)"]
+  },
+  {
+    "root": "まい",
+    "meaning_ja": "毎、毎回",
+    "meaning_zh": "每、每次",
+    "examples": ["毎 (まい)", "毎日 (まいにち)"]
+  },
+  {
+    "root": "あいだ",
+    "meaning_ja": "間、時間",
+    "meaning_zh": "间、时间",
+    "examples": ["間 (あいだ)", "時間 (じかん)"]
+  },
+  {
+    "root": "いま",
+    "meaning_ja": "今、今日",
+    "meaning_zh": "现在、今天",
+    "examples": ["今 (いま)", "今朝 (けさ)"]
+  },
+  {
+    "root": "きた",
+    "meaning_ja": "北、北側",
+    "meaning_zh": "北、北方",
+    "examples": ["北 (きた)", "北風 (きたかぜ)"]
+  },
+  {
+    "root": "みなみ",
+    "meaning_ja": "南、南側",
+    "meaning_zh": "南、南方",
+    "examples": ["南 (みなみ)", "南国 (なんごく)"]
+  },
+  {
+    "root": "ひがし",
+    "meaning_ja": "東、東側",
+    "meaning_zh": "东、东方",
+    "examples": ["東 (ひがし)", "東京 (とうきょう)"]
+  },
+  {
+    "root": "にし",
+    "meaning_ja": "西、西側",
+    "meaning_zh": "西、西方",
+    "examples": ["西 (にし)", "西洋 (せいよう)"]
+  },
+  {
+    "root": "い",
+    "meaning_ja": "生きる、生命",
+    "meaning_zh": "活、生命",
+    "examples": ["生 (い)", "生活 (せいかつ)"]
+  },
+  {
+    "root": "し",
+    "meaning_ja": "死、死亡",
+    "meaning_zh": "死、死亡",
+    "examples": ["死 (し)", "死亡 (しぼう)"]
+  },
+  {
+    "root": "い",
+    "meaning_ja": "行く、行動",
+    "meaning_zh": "去、行动",
+    "examples": ["行 (い)", "旅行 (りょこう)"]
+  },
+  {
+    "root": "く",
+    "meaning_ja": "来る、到来",
+    "meaning_zh": "来、到来",
+    "examples": ["来 (く)", "来年 (らいねん)"]
+  },
+  {
+    "root": "はな",
+    "meaning_ja": "話す、会話",
+    "meaning_zh": "说、谈话",
+    "examples": ["話 (はな)", "電話 (でんわ)"]
+  },
+  {
+    "root": "よ",
+    "meaning_ja": "読む、読書",
+    "meaning_zh": "读、阅读",
+    "examples": ["読 (よ)", "読書 (どくしょ)"]
+  },
+  {
+    "root": "か",
+    "meaning_ja": "書く、書物",
+    "meaning_zh": "写、书籍",
+    "examples": ["書 (か)", "書道 (しょどう)"]
+  },
+  {
+    "root": "き",
+    "meaning_ja": "聞く、聴く",
+    "meaning_zh": "听、倾听",
+    "examples": ["聞 (き)", "新聞 (しんぶん)"]
+  },
+  {
+    "root": "い",
+    "meaning_ja": "言う、言葉",
+    "meaning_zh": "说、语言",
+    "examples": ["言 (い)", "言語 (げんご)"]
+  },
+  {
+    "root": "かた",
+    "meaning_ja": "語る、言語",
+    "meaning_zh": "说、语言",
+    "examples": ["語 (かた)", "日本語 (にほんご)"]
+  },
+  {
+    "root": "くに",
+    "meaning_ja": "国、国家",
+    "meaning_zh": "国、国家",
+    "examples": ["国 (くに)", "国際 (こくさい)"]
+  },
+  {
+    "root": "うみ",
+    "meaning_ja": "海、海洋",
+    "meaning_zh": "海、海洋",
+    "examples": ["海 (うみ)", "海外 (かいがい)"]
+  },
+  {
+    "root": "みせ",
+    "meaning_ja": "店、商店",
+    "meaning_zh": "店、商店",
+    "examples": ["店 (みせ)", "書店 (しょてん)"]
+  },
+  {
+    "root": "みち",
+    "meaning_ja": "道、道路",
+    "meaning_zh": "路、道路",
+    "examples": ["道 (みち)", "鉄道 (てつどう)"]
+  },
+  {
+    "root": "か",
+    "meaning_ja": "買う、購入",
+    "meaning_zh": "买、购买",
+    "examples": ["買 (か)", "買い物 (かいもの)"]
+  },
+  {
+    "root": "う",
+    "meaning_ja": "売る、販売",
+    "meaning_zh": "卖、销售",
+    "examples": ["売 (う)", "売店 (ばいてん)"]
+  },
+  {
+    "root": "し",
+    "meaning_ja": "知る、知識",
+    "meaning_zh": "知道、知识",
+    "examples": ["知 (し)", "知識 (ちしき)"]
+  },
+  {
+    "root": "おも",
+    "meaning_ja": "思う、思考",
+    "meaning_zh": "想、思考",
+    "examples": ["思 (おも)", "思想 (しそう)"]
+  },
+  {
+    "root": "かん",
+    "meaning_ja": "感じ、感情",
+    "meaning_zh": "感觉、情感",
+    "examples": ["感 (かん)", "感情 (かんじょう)"]
+  },
+  {
+    "root": "かんが",
+    "meaning_ja": "考える、思考",
+    "meaning_zh": "考虑、思考",
+    "examples": ["考 (かんが)", "参考 (さんこう)"]
+  },
+  {
+    "root": "あ",
+    "meaning_ja": "会う、会議",
+    "meaning_zh": "会面、会议",
+    "examples": ["会 (あ)", "会社 (かいしゃ)"]
+  },
+  {
+    "root": "しゃ",
+    "meaning_ja": "会社、社会",
+    "meaning_zh": "公司、社会",
+    "examples": ["社 (しゃ)", "社会 (しゃかい)"]
+  },
+  {
+    "root": "よ",
+    "meaning_ja": "世、世界",
+    "meaning_zh": "世、世界",
+    "examples": ["世 (よ)", "世界 (せかい)"]
+  },
+  {
+    "root": "かい",
+    "meaning_ja": "界、領域",
+    "meaning_zh": "界、领域",
+    "examples": ["界 (かい)", "世界 (せかい)"]
+  },
+  {
+    "root": "すべ",
+    "meaning_ja": "全て、全体",
+    "meaning_zh": "全部、整体",
+    "examples": ["全 (すべ)", "全体 (ぜんたい)"]
+  },
+  {
+    "root": "ぶ",
+    "meaning_ja": "部、部門",
+    "meaning_zh": "部、部门",
+    "examples": ["部 (ぶ)", "部屋 (へや)"]
+  },
+  {
+    "root": "いん",
+    "meaning_ja": "員、社員",
+    "meaning_zh": "员、职员",
+    "examples": ["員 (いん)", "社員 (しゃいん)"]
+  },
+  {
+    "root": "ぬし",
+    "meaning_ja": "主、主人",
+    "meaning_zh": "主、主人",
+    "examples": ["主 (ぬし)", "主義 (しゅぎ)"]
+  },
+  {
+    "root": "す",
+    "meaning_ja": "住む、住宅",
+    "meaning_zh": "住、住宅",
+    "examples": ["住 (す)", "住所 (じゅうしょ)"]
+  },
+  {
+    "root": "いえ",
+    "meaning_ja": "家、家庭",
+    "meaning_zh": "家、家庭",
+    "examples": ["家 (いえ)", "家族 (かぞく)"]
+  },
+  {
+    "root": "むろ",
+    "meaning_ja": "室、部屋",
+    "meaning_zh": "室、房间",
+    "examples": ["室 (むろ)", "教室 (きょうしつ)"]
+  },
+  {
+    "root": "もん",
+    "meaning_ja": "門、門戸",
+    "meaning_zh": "门、门户",
+    "examples": ["門 (もん)", "専門 (せんもん)"]
+  },
+  {
+    "root": "おう",
+    "meaning_ja": "王、王様",
+    "meaning_zh": "王、国王",
+    "examples": ["王 (おう)", "王国 (おうこく)"]
+  },
+  {
+    "root": "たま",
+    "meaning_ja": "玉、宝石",
+    "meaning_zh": "玉、宝石",
+    "examples": ["玉 (たま)", "玉石 (ぎょくせき)"]
+  },
+  {
+    "root": "たから",
+    "meaning_ja": "宝、宝物",
+    "meaning_zh": "宝、宝物",
+    "examples": ["宝 (たから)", "宝物 (ほうもつ)"]
+  },
+  {
+    "root": "こう",
+    "meaning_ja": "工、工事",
+    "meaning_zh": "工、工程",
+    "examples": ["工 (こう)", "工場 (こうじょう)"]
+  },
+  {
+    "root": "つく",
+    "meaning_ja": "作る、作品",
+    "meaning_zh": "制作、作品",
+    "examples": ["作 (つく)", "作家 (さっか)"]
+  },
+  {
+    "root": "もち",
+    "meaning_ja": "使う、用途",
+    "meaning_zh": "使用、用途",
+    "examples": ["用 (もち)", "用事 (ようじ)"]
+  },
+  {
+    "root": "しな",
+    "meaning_ja": "品、品物",
+    "meaning_zh": "品、物品",
+    "examples": ["品 (しな)", "商品 (しょうひん)"]
+  },
+  {
+    "root": "え",
+    "meaning_ja": "絵、絵画",
+    "meaning_zh": "画、绘画",
+    "examples": ["絵 (え)", "絵本 (えほん)"]
+  },
+  {
+    "root": "たの",
+    "meaning_ja": "楽しい、音楽",
+    "meaning_zh": "快乐、音乐",
+    "examples": ["楽 (たの)", "楽園 (らくえん)"]
+  },
+  {
+    "root": "うた",
+    "meaning_ja": "歌、歌う",
+    "meaning_zh": "歌、唱歌",
+    "examples": ["歌 (うた)", "歌手 (かしゅ)"]
+  },
+  {
+    "root": "が",
+    "meaning_ja": "画、絵画",
+    "meaning_zh": "画、绘画",
+    "examples": ["画 (が)", "画面 (がめん)"]
+  },
+  {
+    "root": "ず",
+    "meaning_ja": "図、図形",
+    "meaning_zh": "图、图形",
+    "examples": ["図 (ず)", "地図 (ちず)"]
+  },
+  {
+    "root": "てん",
+    "meaning_ja": "点、ポイント",
+    "meaning_zh": "点、点数",
+    "examples": ["点 (てん)", "点数 (てんすう)"]
+  },
+  {
+    "root": "せん",
+    "meaning_ja": "線、路線",
+    "meaning_zh": "线、路线",
+    "examples": ["線 (せん)", "路線 (ろせん)"]
+  },
+  {
+    "root": "ただ",
+    "meaning_ja": "直す、直線",
+    "meaning_zh": "纠正、直线",
+    "examples": ["直 (ただ)", "直接 (ちょくせつ)"]
+  },
+  {
+    "root": "まる",
+    "meaning_ja": "丸、円形",
+    "meaning_zh": "圆、圆形",
+    "examples": ["丸 (まる)", "丸太 (まるた)"]
+  },
+  {
+    "root": "かく",
+    "meaning_ja": "角、角度",
+    "meaning_zh": "角、角度",
+    "examples": ["角 (かく)", "三角 (さんかく)"]
+  },
+  {
+    "root": "ほう",
+    "meaning_ja": "方、方向",
+    "meaning_zh": "方、方向",
+    "examples": ["方 (ほう)", "方法 (ほうほう)"]
+  },
+  {
+    "root": "ある",
+    "meaning_ja": "歩く、歩行",
+    "meaning_zh": "步行、步伐",
+    "examples": ["歩 (ある)", "歩道 (ほどう)"]
+  },
+  {
+    "root": "はし",
+    "meaning_ja": "走る、走行",
+    "meaning_zh": "跑、奔跑",
+    "examples": ["走 (はし)", "走者 (そうしゃ)"]
+  },
+  {
+    "root": "と",
+    "meaning_ja": "止まる、停止",
+    "meaning_zh": "停止、停下",
+    "examples": ["止 (と)", "停止 (ていし)"]
+  },
+  {
+    "root": "かつ",
+    "meaning_ja": "活動、活躍",
+    "meaning_zh": "活动、活跃",
+    "examples": ["活 (かつ)", "生活 (せいかつ)"]
+  },
+  {
+    "root": "おく",
+    "meaning_ja": "送る、送信",
+    "meaning_zh": "送、发送",
+    "examples": ["送 (おく)", "放送 (ほうそう)"]
+  },
+  {
+    "root": "も",
+    "meaning_ja": "持つ、保持",
+    "meaning_zh": "持、保持",
+    "examples": ["持 (も)", "持続 (じぞく)"]
+  },
+  {
+    "root": "ま",
+    "meaning_ja": "待つ、待機",
+    "meaning_zh": "等、等待",
+    "examples": ["待 (ま)", "待機 (たいき)"]
+  },
+  {
+    "root": "の",
+    "meaning_ja": "乗る、乗車",
+    "meaning_zh": "乘、乘车",
+    "examples": ["乗 (の)", "乗車 (じょうしゃ)"]
+  },
+  {
+    "root": "お",
+    "meaning_ja": "降りる、降雨",
+    "meaning_zh": "下降、降雨",
+    "examples": ["降 (お)", "降雨 (こうう)"]
+  },
+  {
+    "root": "はじ",
+    "meaning_ja": "始める、開始",
+    "meaning_zh": "开始、开端",
+    "examples": ["始 (はじ)", "開始 (かいし)"]
+  },
+  {
+    "root": "お",
+    "meaning_ja": "終わる、終了",
+    "meaning_zh": "结束、完结",
+    "examples": ["終 (お)", "終了 (しゅうりょう)"]
+  },
+  {
+    "root": "ひら",
+    "meaning_ja": "開く、開始",
+    "meaning_zh": "开、开始",
+    "examples": ["開 (ひら)", "開会 (かいかい)"]
+  },
+  {
+    "root": "し",
+    "meaning_ja": "閉まる、閉鎖",
+    "meaning_zh": "关闭、闭锁",
+    "examples": ["閉 (し)", "閉店 (へいてん)"]
+  },
+  {
+    "root": "た",
+    "meaning_ja": "建てる、建築",
+    "meaning_zh": "建造、建筑",
+    "examples": ["建 (た)", "建物 (たてもの)"]
+  },
+  {
+    "root": "もの",
+    "meaning_ja": "物、物品",
+    "meaning_zh": "物、物品",
+    "examples": ["物 (もの)", "動物 (どうぶつ)"]
+  },
+  {
+    "root": "うご",
+    "meaning_ja": "動く、運動",
+    "meaning_zh": "动、运动",
+    "examples": ["動 (うご)", "運動 (うんどう)"]
+  },
+  {
+    "root": "う",
+    "meaning_ja": "植える、植物",
+    "meaning_zh": "种植、植物",
+    "examples": ["植 (う)", "植物 (しょくぶつ)"]
+  },
+  {
+    "root": "みず",
+    "meaning_ja": "自分、自己",
+    "meaning_zh": "自己、本身",
+    "examples": ["自 (みず)", "自由 (じゆう)"]
+  },
+  {
+    "root": "ほか",
+    "meaning_ja": "他、他人",
+    "meaning_zh": "其他、他人",
+    "examples": ["他 (ほか)", "他人 (たにん)"]
+  },
+  {
+    "root": "おな",
+    "meaning_ja": "同じ、同等",
+    "meaning_zh": "相同、相同",
+    "examples": ["同 (おな)", "同級 (どうきゅう)"]
+  },
+  {
+    "root": "ふ",
+    "meaning_ja": "不、否定",
+    "meaning_zh": "不、否定",
+    "examples": ["不 (ふ)", "不思議 (ふしぎ)"]
+  },
+  {
+    "root": "な",
+    "meaning_ja": "無い、無",
+    "meaning_zh": "无、无",
+    "examples": ["無 (な)", "無料 (むりょう)"]
+  },
+  {
+    "root": "あ",
+    "meaning_ja": "有る、所有",
+    "meaning_zh": "有、拥有",
+    "examples": ["有 (あ)", "有名 (ゆうめい)"]
+  },
+  {
+    "root": "とも",
+    "meaning_ja": "友、友達",
+    "meaning_zh": "友、朋友",
+    "examples": ["友 (とも)", "友達 (ともだち)"]
+  },
+  {
+    "root": "おや",
+    "meaning_ja": "親、親しい",
+    "meaning_zh": "亲、亲近",
+    "examples": ["親 (おや)", "親友 (しんゆう)"]
+  },
+  {
+    "root": "こう",
+    "meaning_ja": "公、公共",
+    "meaning_zh": "公、公共",
+    "examples": ["公 (こう)", "公園 (こうえん)"]
+  },
+  {
+    "root": "わたし",
+    "meaning_ja": "私、個人的",
+    "meaning_zh": "我、个人",
+    "examples": ["私 (わたし)", "私立 (しりつ)"]
+  },
+  {
+    "root": "い",
+    "meaning_ja": "意、意思",
+    "meaning_zh": "意、意图",
+    "examples": ["意 (い)", "意見 (いけん)"]
+  },
+  {
+    "root": "り",
+    "meaning_ja": "理、理論",
+    "meaning_zh": "理、理论",
+    "examples": ["理 (り)", "理由 (りゆう)"]
+  },
+  {
+    "root": "こと",
+    "meaning_ja": "事、事実",
+    "meaning_zh": "事、事实",
+    "examples": ["事 (こと)", "仕事 (しごと)"]
+  },
+  {
+    "root": "ば",
+    "meaning_ja": "場、場所",
+    "meaning_zh": "场、场所",
+    "examples": ["場 (ば)", "市場 (いちば)"]
+  },
+  {
+    "root": "ところ",
+    "meaning_ja": "所、場所",
+    "meaning_zh": "处、场所",
+    "examples": ["所 (ところ)", "住所 (じゅうしょ)"]
+  },
+  {
+    "root": "ち",
+    "meaning_ja": "地、地面",
+    "meaning_zh": "地、地面",
+    "examples": ["地 (ち)", "地震 (じしん)"]
+  },
+  {
+    "root": "おもて",
+    "meaning_ja": "表、表現",
+    "meaning_zh": "表、表达",
+    "examples": ["表 (おもて)", "表現 (ひょうげん)"]
+  },
+  {
+    "root": "うら",
+    "meaning_ja": "裏、裏側",
+    "meaning_zh": "里、背面",
+    "examples": ["裏 (うら)", "裏口 (うらぐち)"]
+  },
+  {
+    "root": "あさ",
+    "meaning_ja": "朝、朝食",
+    "meaning_zh": "早晨、早餐",
+    "examples": ["朝 (あさ)", "朝食 (ちょうしょく)"]
+  },
+  {
+    "root": "ひる",
+    "meaning_ja": "昼、昼間",
+    "meaning_zh": "白天、午间",
+    "examples": ["昼 (ひる)", "昼食 (ちゅうしょく)"]
+  },
+  {
+    "root": "よ",
+    "meaning_ja": "夜、夜間",
+    "meaning_zh": "夜、夜间",
+    "examples": ["夜 (よ)", "夜中 (よなか)"]
+  },
+  {
+    "root": "はる",
+    "meaning_ja": "春、春季",
+    "meaning_zh": "春、春季",
+    "examples": ["春 (はる)", "春分 (しゅんぶん)"]
+  },
+  {
+    "root": "なつ",
+    "meaning_ja": "夏、夏季",
+    "meaning_zh": "夏、夏季",
+    "examples": ["夏 (なつ)", "夏休み (なつやすみ)"]
+  },
+  {
+    "root": "あき",
+    "meaning_ja": "秋、秋季",
+    "meaning_zh": "秋、秋季",
+    "examples": ["秋 (あき)", "秋分 (しゅうぶん)"]
+  },
+  {
+    "root": "ふゆ",
+    "meaning_ja": "冬、冬季",
+    "meaning_zh": "冬、冬季",
+    "examples": ["冬 (ふゆ)", "冬休み (ふゆやすみ)"]
+  },
+  {
+    "root": "くも",
+    "meaning_ja": "雲、曇り",
+    "meaning_zh": "云、阴云",
+    "examples": ["雲 (くも)", "曇天 (どんてん)"]
+  },
+  {
+    "root": "とり",
+    "meaning_ja": "鳥、鳥類",
+    "meaning_zh": "鸟、鸟类",
+    "examples": ["鳥 (とり)", "小鳥 (ことり)"]
+  },
+  {
+    "root": "うお",
+    "meaning_ja": "魚、魚類",
+    "meaning_zh": "鱼、鱼类",
+    "examples": ["魚 (うお)", "魚市場 (うおいちば)"]
+  },
+  {
+    "root": "うま",
+    "meaning_ja": "馬、馬力",
+    "meaning_zh": "马、马力",
+    "examples": ["馬 (うま)", "競馬 (けいば)"]
+  },
+  {
+    "root": "うし",
+    "meaning_ja": "牛、牛肉",
+    "meaning_zh": "牛、牛肉",
+    "examples": ["牛 (うし)", "牛肉 (ぎゅうにく)"]
+  },
+  {
+    "root": "ひつじ",
+    "meaning_ja": "羊、羊毛",
+    "meaning_zh": "羊、羊毛",
+    "examples": ["羊 (ひつじ)", "羊毛 (ようもう)"]
+  },
+  {
+    "root": "にく",
+    "meaning_ja": "肉、肉体",
+    "meaning_zh": "肉、肉体",
+    "examples": ["肉 (にく)", "肉食 (にくしょく)"]
+  },
+  {
+    "root": "かわ",
+    "meaning_ja": "皮、皮膚",
+    "meaning_zh": "皮、皮肤",
+    "examples": ["皮 (かわ)", "皮革 (ひかく)"]
+  },
+  {
+    "root": "け",
+    "meaning_ja": "毛、毛髪",
+    "meaning_zh": "毛、毛发",
+    "examples": ["毛 (け)", "毛布 (もうふ)"]
+  },
+  {
+    "root": "は",
+    "meaning_ja": "羽、羽根",
+    "meaning_zh": "羽、羽毛",
+    "examples": ["羽 (は)", "羽毛 (うもう)"]
+  },
+  {
+    "root": "ふく",
+    "meaning_ja": "服、衣服",
+    "meaning_zh": "服、衣服",
+    "examples": ["服 (ふく)", "洋服 (ようふく)"]
+  },
+  {
+    "root": "き",
+    "meaning_ja": "着る、到着",
+    "meaning_zh": "穿、到达",
+    "examples": ["着 (き)", "着物 (きもの)"]
+  },
+  {
+    "root": "かみ",
+    "meaning_ja": "紙、紙類",
+    "meaning_zh": "纸、纸张",
+    "examples": ["紙 (かみ)", "新聞紙 (しんぶんし)"]
+  },
+  {
+    "root": "ふで",
+    "meaning_ja": "筆、筆記",
+    "meaning_zh": "笔、书写",
+    "examples": ["筆 (ふで)", "筆記 (ひっき)"]
+  },
+  {
+    "root": "やま",
+    "meaning_ja": "山、山岳",
+    "meaning_zh": "山、山岳",
+    "examples": ["山 (やま)", "山頂 (さんちょう)", "登山 (とざん)"]
+  },
+  {
+    "root": "かわ",
+    "meaning_ja": "川、河川",
+    "meaning_zh": "河、河流",
+    "examples": ["川 (かわ)", "川辺 (かわべ)", "川岸 (かわぎし)"]
+  },
+  {
+    "root": "ひ",
+    "meaning_ja": "火、火曜日",
+    "meaning_zh": "火、星期二",
+    "examples": ["火 (ひ)", "火山 (かざん)", "火曜日 (かようび)"]
+  },
+  {
+    "root": "みず",
+    "meaning_ja": "水、水曜日",
+    "meaning_zh": "水、星期三",
+    "examples": ["水 (みず)", "水道 (すいどう)", "水曜日 (すいようび)"]
+  },
+  {
+    "root": "そら",
+    "meaning_ja": "空、空気",
+    "meaning_zh": "天空、空气",
+    "examples": ["空 (そら)", "空港 (くうこう)"]
+  },
+  {
+    "root": "つち",
+    "meaning_ja": "土、土曜日、地面",
+    "meaning_zh": "土、星期六、土地",
+    "examples": ["土 (つち)", "土壌 (どじょう)", "土曜日 (どようび)"]
+  },
+  {
+    "root": "き",
+    "meaning_ja": "木、木曜日",
+    "meaning_zh": "树木、星期四",
+    "examples": ["木 (き)", "木材 (もくざい)", "木曜日 (もくようび)"]
+  },
+  {
+    "root": "かね",
+    "meaning_ja": "金、金曜日、金属、金銭",
+    "meaning_zh": "金、星期五、金属、钱财",
+    "examples": ["金 (かね)", "金属 (きんぞく)", "金曜日 (きんようび)", "金貨 (きんか)"]
+  },
+  {
+    "root": "つき",
+    "meaning_ja": "月、月曜日、月亮、月份",
+    "meaning_zh": "月亮、月份、星期一",
+    "examples": ["月 (つき)", "月光 (げっこう)", "今月 (こんげつ)", "月曜日 (げつようび)"]
+  },
+  {
+    "root": "ひ",
+    "meaning_ja": "太陽、昼、日期、日本",
+    "meaning_zh": "太阳、白天、日期、日本",
+    "examples": ["日 (ひ)", "日記 (にっき)", "今日 (きょう)", "日曜日 (にちようび)"]
+  },
+  {
+    "root": "あめ",
+    "meaning_ja": "雨、降雨",
+    "meaning_zh": "雨、降雨",
+    "examples": ["雨 (あめ)", "雨天 (うてん)"]
+  },
+  {
+    "root": "かぜ",
+    "meaning_ja": "風、風邪、風向き",
+    "meaning_zh": "风、感冒、风向",
+    "examples": ["風 (かぜ)", "風速 (ふうそく)", "台風 (たいふう)"]
+  },
+  {
+    "root": "ゆき",
+    "meaning_ja": "雪、雪景色、降雪",
+    "meaning_zh": "雪、雪景、降雪",
+    "examples": ["雪 (ゆき)", "雪山 (ゆきやま)", "雪国 (ゆきぐに)"]
+  },
+  {
+    "root": "ほし",
+    "meaning_ja": "星、星座",
+    "meaning_zh": "星、星座",
+    "examples": ["星 (ほし)", "明星 (みょうじょう)", "星空 (ほしぞら)"]
+  },
+  {
+    "root": "ひかり",
+    "meaning_ja": "光、光線、光る",
+    "meaning_zh": "光、光线、发光",
+    "examples": ["光 (ひかり)", "光景 (こうけい)", "光線 (こうせん)"]
+  },
+  {
+    "root": "おと",
+    "meaning_ja": "音、音楽、音声",
+    "meaning_zh": "声音、音乐、音响",
+    "examples": ["音 (おと)", "音楽 (おんがく)"]
+  },
+  {
+    "root": "こえ",
+    "meaning_ja": "声、発声",
+    "meaning_zh": "声音、发声",
+    "examples": ["声 (こえ)", "声優 (せいゆう)"]
+  },
+  {
+    "root": "いろ",
+    "meaning_ja": "色、色彩",
+    "meaning_zh": "颜色、色彩",
+    "examples": ["色 (いろ)", "色彩 (しきさい)", "色紙 (しきし)"]
+  },
+  {
+    "root": "かたち",
+    "meaning_ja": "形、形状",
+    "meaning_zh": "形状、外形",
+    "examples": ["形 (かたち)", "形状 (けいじょう)", "形見 (かたみ)"]
+  },
+  {
+    "root": "からだ",
+    "meaning_ja": "体、身体",
+    "meaning_zh": "身体、体格",
+    "examples": ["体 (からだ)", "体操 (たいそう)", "体育 (たいいく)"]
+  },
+  {
+    "root": "こころ",
+    "meaning_ja": "心、心臓",
+    "meaning_zh": "心、心脏",
+    "examples": ["心 (こころ)", "心配 (しんぱい)", "心臓 (しんぞう)"]
+  },
+  {
+    "root": "て",
+    "meaning_ja": "手、手段",
+    "meaning_zh": "手、手段",
+    "examples": ["手 (て)", "手紙 (てがみ)", "手紙 (てがみ)"]
+  },
+  {
+    "root": "あし",
+    "meaning_ja": "足、脚",
+    "meaning_zh": "脚、足",
+    "examples": ["足 (あし)", "足音 (あしおと)", "足跡 (あしあと)"]
+  },
+  {
+    "root": "め",
+    "meaning_ja": "目、視線",
+    "meaning_zh": "眼睛、视线",
+    "examples": ["目 (め)", "目標 (もくひょう)", "目的 (もくてき)"]
+  },
+  {
+    "root": "みみ",
+    "meaning_ja": "耳、聴覚",
+    "meaning_zh": "耳朵、听觉",
+    "examples": ["耳 (みみ)", "耳鼻科 (じびか)"]
+  },
+  {
+    "root": "くち",
+    "meaning_ja": "口、入り口",
+    "meaning_zh": "嘴、入口",
+    "examples": ["口 (くち)", "口座 (こうざ)", "人口 (じんこう)"]
+  },
+  {
+    "root": "はな",
+    "meaning_ja": "鼻、嗅覚",
+    "meaning_zh": "鼻子、嗅觉",
+    "examples": ["鼻 (はな)", "鼻水 (はなみず)"]
+  },
+  {
+    "root": "は",
+    "meaning_ja": "歯、歯科",
+    "meaning_zh": "牙齿、牙科",
+    "examples": ["歯 (は)", "歯磨き (はみがき)"]
+  },
+  {
+    "root": "かみ",
+    "meaning_ja": "髪、髪の毛",
+    "meaning_zh": "头发、发丝",
+    "examples": ["髪 (かみ)", "髪型 (かみがた)"]
+  },
+  {
+    "root": "かお",
+    "meaning_ja": "顔、表情",
+    "meaning_zh": "脸、表情",
+    "examples": ["顔 (かお)", "顔色 (かおいろ)"]
+  },
+  {
+    "root": "たりる",
+    "meaning_ja": "足りる、十分である",
+    "meaning_zh": "足够、充足",
+    "examples": ["足りる (たりる)"]
+  },
+  {
+    "root": "ちから",
+    "meaning_ja": "力、能力",
+    "meaning_zh": "力量、能力",
+    "examples": ["力 (ちから)", "力士 (りきし)", "努力 (どりょく)"]
+  },
+  {
+    "root": "おお",
+    "meaning_ja": "大きい、大きさ、大きな",
+    "meaning_zh": "大、大的",
+    "examples": ["大 (おお)", "大人 (おとな)", "大学 (だいがく)"]
+  },
+  {
+    "root": "ちい",
+    "meaning_ja": "小さい、小ささ、小さな",
+    "meaning_zh": "小、小的",
+    "examples": ["小 (ちい)", "小学校 (しょうがっこう)"]
+  },
+  {
+    "root": "おお",
+    "meaning_ja": "多い、多数",
+    "meaning_zh": "多、多的",
+    "examples": ["多 (おお)", "多様 (たよう)"]
+  },
+  {
+    "root": "すく",
+    "meaning_ja": "少ない、少し",
+    "meaning_zh": "少、少的",
+    "examples": ["少 (すく)", "少数 (しょうすう)"]
+  },
+  {
+    "root": "あたら",
+    "meaning_ja": "新しい、新鮮、新規",
+    "meaning_zh": "新、新的",
+    "examples": ["新 (あたら)", "新年 (しんねん)", "新聞 (しんぶん)"]
+  },
+  {
+    "root": "ふる",
+    "meaning_ja": "古い、古代、古老",
+    "meaning_zh": "旧、古老、古代",
+    "examples": ["古 (ふる)", "古代 (こだい)", "古本 (ふるほん)"]
+  },
+  {
+    "root": "なが",
+    "meaning_ja": "長い、長さ",
+    "meaning_zh": "长、长度",
+    "examples": ["長 (なが)", "長所 (ちょうしょ)", "長編 (ちょうへん)"]
+  },
+  {
+    "root": "みじか",
+    "meaning_ja": "短い、短さ",
+    "meaning_zh": "短、短的",
+    "examples": ["短 (みじか)", "短所 (たんしょ)"]
+  },
+  {
+    "root": "たか",
+    "meaning_ja": "高い、高さ",
+    "meaning_zh": "高、高的、高度",
+    "examples": ["高 (たか)", "高山 (こうざん)", "高校 (こうこう)"]
+  },
+  {
+    "root": "やす",
+    "meaning_ja": "安い、安心",
+    "meaning_zh": "便宜、安心",
+    "examples": ["安 (やす)", "安全 (あんぜん)"]
+  },
+  {
+    "root": "あか",
+    "meaning_ja": "明るい、明確",
+    "meaning_zh": "明亮、明确",
+    "examples": ["明 (あか)", "明日 (あした)"]
+  },
+  {
+    "root": "くら",
+    "meaning_ja": "暗い、暗黒",
+    "meaning_zh": "黑暗、阴暗",
+    "examples": ["暗 (くら)", "暗号 (あんごう)"]
+  },
+  {
+    "root": "しろ",
+    "meaning_ja": "白い、白色、白",
+    "meaning_zh": "白色、白的",
+    "examples": ["白 (しろ)", "白紙 (はくし)", "白紙 (はくし)"]
+  },
+  {
+    "root": "くろ",
+    "meaning_ja": "黒い、黒色",
+    "meaning_zh": "黑色、黑的",
+    "examples": ["黒 (くろ)", "黒板 (こくばん)"]
+  },
+  {
+    "root": "あお",
+    "meaning_ja": "青い、青色、青",
+    "meaning_zh": "蓝色、青的、蓝",
+    "examples": ["青 (あお)", "青空 (あおぞら)", "青空 (あおぞら)"]
+  },
+  {
+    "root": "あか",
+    "meaning_ja": "赤い、赤色、赤",
+    "meaning_zh": "红色、红的",
+    "examples": ["赤 (あか)", "赤ちゃん (あかちゃん)", "赤信号 (あかしんごう)"]
+  },
+  {
+    "root": "みどり",
+    "meaning_ja": "緑、緑色",
+    "meaning_zh": "绿色、绿的",
+    "examples": ["緑 (みどり)", "緑茶 (りょくちゃ)"]
+  },
+  {
+    "root": "ちゃ",
+    "meaning_ja": "茶、茶色、お茶",
+    "meaning_zh": "茶、茶色、茶叶",
+    "examples": ["茶 (ちゃ)", "お茶 (おちゃ)", "お茶 (おちゃ)"]
+  },
+  {
+    "root": "かず",
+    "meaning_ja": "数、数字",
+    "meaning_zh": "数、数字",
+    "examples": ["数 (かず)", "数値 (すうち)", "数学 (すうがく)"]
+  },
+  {
+    "root": "とき",
+    "meaning_ja": "時間、時刻",
+    "meaning_zh": "时间、时刻",
+    "examples": ["時 (とき)", "時間 (じかん)", "時計 (とけい)"]
+  },
+  {
+    "root": "わ",
+    "meaning_ja": "分ける、分かる",
+    "meaning_zh": "分开、理解、明白",
+    "examples": ["分 (わ)", "分数 (ぶんすう)", "十分 (じゅっぷん)", "分間 (ふんかん)"]
+  },
+  {
+    "root": "びょう",
+    "meaning_ja": "秒、時間の単位",
+    "meaning_zh": "秒、时间单位",
+    "examples": ["秒 (びょう)", "秒針 (びょうしん)"]
+  },
+  {
+    "root": "とし",
+    "meaning_ja": "年、年度、年齢",
+    "meaning_zh": "年、年度、年龄",
+    "examples": ["年 (とし)", "今年 (ことし)", "年月 (ねんげつ)"]
+  },
+  {
+    "root": "しゅう",
+    "meaning_ja": "週、週間",
+    "meaning_zh": "周、星期",
+    "examples": ["週 (しゅう)", "週末 (しゅうまつ)"]
+  },
+  {
+    "root": "はん",
+    "meaning_ja": "半分、半ば",
+    "meaning_zh": "一半、半途",
+    "examples": ["半 (はん)", "半年 (はんとし)", "半日 (はんにち)"]
+  },
+  {
+    "root": "うえ",
+    "meaning_ja": "上、上がる、上げる",
+    "meaning_zh": "上、上升",
+    "examples": ["上 (うえ)", "上手 (じょうず)", "上着 (うわぎ)"]
+  },
+  {
+    "root": "した",
+    "meaning_ja": "下、下がる、下る",
+    "meaning_zh": "下、下降",
+    "examples": ["下 (した)", "下手 (へた)", "下車 (げしゃ)"]
+  },
+  {
+    "root": "ひだり",
+    "meaning_ja": "左、左側",
+    "meaning_zh": "左、左边、左侧",
+    "examples": ["左 (ひだり)", "左手 (ひだりて)"]
+  },
+  {
+    "root": "みぎ",
+    "meaning_ja": "右、右側",
+    "meaning_zh": "右、右边、右侧",
+    "examples": ["右 (みぎ)", "右手 (みぎて)"]
+  },
+  {
+    "root": "なか",
+    "meaning_ja": "中、中央、中間",
+    "meaning_zh": "中间、中心",
+    "examples": ["中 (なか)", "中学校 (ちゅうがっこう)", "中学 (ちゅうがく)"]
+  },
+  {
+    "root": "そと",
+    "meaning_ja": "外、外側",
+    "meaning_zh": "外面、外边、外部",
+    "examples": ["外 (そと)", "外国 (がいこく)", "外国人 (がいこくじん)"]
+  },
+  {
+    "root": "まえ",
+    "meaning_ja": "前、前方",
+    "meaning_zh": "前面、前方",
+    "examples": ["前 (まえ)", "前日 (ぜんじつ)", "前進 (ぜんしん)", "午前 (ごぜん)"]
+  },
+  {
+    "root": "あと",
+    "meaning_ja": "後ろ、後方",
+    "meaning_zh": "后面、后方",
+    "examples": ["後 (あと)", "後日 (ごじつ)", "後悔 (こうかい)", "午後 (ごご)"]
+  },
+  {
+    "root": "うち",
+    "meaning_ja": "内、内部、内側",
+    "meaning_zh": "内部、里面",
+    "examples": ["内 (うち)", "内容 (ないよう)", "国内 (こくない)"]
+  },
+  {
+    "root": "ひと",
+    "meaning_ja": "数字の「一」",
+    "meaning_zh": "数字“一”",
+    "examples": ["一 (ひと)", "一人 (ひとり)"]
+  },
+  {
+    "root": "ふた",
+    "meaning_ja": "数字の「二」",
+    "meaning_zh": "数字“二”",
+    "examples": ["二 (ふた)", "二年 (にねん)"]
+  },
+  {
+    "root": "み",
+    "meaning_ja": "数字の「三」",
+    "meaning_zh": "数字“三”",
+    "examples": ["三 (み)", "三日 (みっか)"]
+  },
+  {
+    "root": "よん",
+    "meaning_ja": "数字の「四」",
+    "meaning_zh": "数字“四”",
+    "examples": ["四 (よん)", "四月 (しがつ)"]
+  },
+  {
+    "root": "いつ",
+    "meaning_ja": "数字の「五」",
+    "meaning_zh": "数字“五”",
+    "examples": ["五 (いつ)", "五月 (ごがつ)"]
+  },
+  {
+    "root": "む",
+    "meaning_ja": "数字の「六」",
+    "meaning_zh": "数字“六”",
+    "examples": ["六 (む)", "六年 (ろくねん)"]
+  },
+  {
+    "root": "なな",
+    "meaning_ja": "数字の「七」",
+    "meaning_zh": "数字“七”",
+    "examples": ["七 (なな)", "七夕 (たなばた)"]
+  },
+  {
+    "root": "や",
+    "meaning_ja": "数字の「八」",
+    "meaning_zh": "数字“八”",
+    "examples": ["八 (や)", "八日 (ようか)"]
+  },
+  {
+    "root": "ここの",
+    "meaning_ja": "数字の「九」",
+    "meaning_zh": "数字“九”",
+    "examples": ["九 (ここの)", "九月 (くがつ)"]
+  },
+  {
+    "root": "とお",
+    "meaning_ja": "数字の「十」",
+    "meaning_zh": "数字“十”",
+    "examples": ["十 (とお)", "十日 (とおか)"]
+  },
+  {
+    "root": "ひゃく",
+    "meaning_ja": "数字の「百」",
+    "meaning_zh": "数字“百”",
+    "examples": ["百 (ひゃく)", "百円 (ひゃくえん)"]
+  },
+  {
+    "root": "せん",
+    "meaning_ja": "数字の「千」",
+    "meaning_zh": "数字“千”",
+    "examples": ["千 (せん)", "千人 (せんにん)"]
+  },
+  {
+    "root": "よろず",
+    "meaning_ja": "数字の「万」",
+    "meaning_zh": "数字“万”",
+    "examples": ["万 (よろず)", "一万 (いちまん)"]
+  },
+  {
+    "root": "まる",
+    "meaning_ja": "円、丸い、貨幣単位",
+    "meaning_zh": "圆、圆形、货币单位",
+    "examples": ["円 (まる)", "円形 (えんけい)"]
+  },
+  {
+    "root": "ひと",
+    "meaning_ja": "人、他人、人間",
+    "meaning_zh": "人、他人",
+    "examples": ["人 (ひと)", "人間 (にんげん)"]
+  },
+  {
+    "root": "な",
+    "meaning_ja": "名前、名称",
+    "meaning_zh": "名字、名称",
+    "examples": ["名 (な)", "名前 (なまえ)"]
+  },
+  {
+    "root": "おんな",
+    "meaning_ja": "女、女性",
+    "meaning_zh": "女、女性",
+    "examples": ["女 (おんな)", "女子 (じょし)"]
+  },
+  {
+    "root": "おとこ",
+    "meaning_ja": "男、男性",
+    "meaning_zh": "男、男性",
+    "examples": ["男 (おとこ)", "男子 (だんし)"]
+  },
+  {
+    "root": "こ",
+    "meaning_ja": "子、子供",
+    "meaning_zh": "孩子、儿童",
+    "examples": ["子 (こ)", "子供 (こども)"]
+  },
+  {
+    "root": "み",
+    "meaning_ja": "見る、視界",
+    "meaning_zh": "看、视野",
+    "examples": ["見 (み)", "見学 (けんがく)"]
+  },
+  {
+    "root": "はい",
+    "meaning_ja": "入る、入れる",
+    "meaning_zh": "进入、放入",
+    "examples": ["入 (はい)", "入学 (にゅうがく)"]
+  },
+  {
+    "root": "で",
+    "meaning_ja": "出る、出す",
+    "meaning_zh": "出去、拿出",
+    "examples": ["出 (で)", "出口 (でぐち)"]
+  },
+  {
+    "root": "た",
+    "meaning_ja": "立つ、設立",
+    "meaning_zh": "站立、设立",
+    "examples": ["立 (た)", "国立 (こくりつ)"]
+  },
+  {
+    "root": "やす",
+    "meaning_ja": "休む、休息",
+    "meaning_zh": "休息、休假",
+    "examples": ["休 (やす)", "休日 (きゅうじつ)"]
+  },
+  {
+    "root": "さき",
+    "meaning_ja": "先、先に",
+    "meaning_zh": "前面、先前",
+    "examples": ["先 (さき)", "先生 (せんせい)"]
+  },
+  {
+    "root": "ゆう",
+    "meaning_ja": "夕方、夕暮れ",
+    "meaning_zh": "傍晚、黄昏",
+    "examples": ["夕 (ゆう)", "夕食 (ゆうしょく)"]
+  },
+  {
+    "root": "ほん",
+    "meaning_ja": "本、書物",
+    "meaning_zh": "书、书籍",
+    "examples": ["本 (ほん)", "本屋 (ほんや)"]
+  },
+  {
+    "root": "ふみ",
+    "meaning_ja": "文章、文学",
+    "meaning_zh": "文章、文学",
+    "examples": ["文 (ふみ)", "文学 (ぶんがく)"]
+  },
+  {
+    "root": "あざ",
+    "meaning_ja": "字、文字",
+    "meaning_zh": "字、文字",
+    "examples": ["字 (あざ)", "漢字 (かんじ)"]
+  },
+  {
+    "root": "まな",
+    "meaning_ja": "学ぶ、学校",
+    "meaning_zh": "学习、学校",
+    "examples": ["学 (まな)", "学生 (がくせい)"]
+  },
+  {
+    "root": "こう",
+    "meaning_ja": "学校、校舎",
+    "meaning_zh": "学校、校舍",
+    "examples": ["校 (こう)", "学校 (がっこう)"]
+  },
+  {
+    "root": "むら",
+    "meaning_ja": "村、集落",
+    "meaning_zh": "村庄、聚落",
+    "examples": ["村 (むら)", "村人 (むらひと)"]
+  },
+  {
+    "root": "まち",
+    "meaning_ja": "町、街",
+    "meaning_zh": "城镇、街道",
+    "examples": ["町 (まち)", "町中 (まちなか)"]
+  },
+  {
+    "root": "た",
+    "meaning_ja": "田んぼ、田園",
+    "meaning_zh": "稻田、田园",
+    "examples": ["田 (た)", "田舎 (いなか)"]
+  },
+  {
+    "root": "はやし",
+    "meaning_ja": "林、小さい森",
+    "meaning_zh": "树林、小森林",
+    "examples": ["林 (はやし)", "林間 (りんかん)"]
+  },
+  {
+    "root": "もり",
+    "meaning_ja": "森、森林",
+    "meaning_zh": "森林",
+    "examples": ["森 (もり)", "森林 (しんりん)"]
+  },
+  {
+    "root": "あま",
+    "meaning_ja": "天、天空",
+    "meaning_zh": "天、天空",
+    "examples": ["天 (あま)", "天気 (てんき)"]
+  },
+  {
+    "root": "き",
+    "meaning_ja": "気、天気、気分",
+    "meaning_zh": "气、天气、心情",
+    "examples": ["気 (き)", "気分 (きぶん)"]
+  },
+  {
+    "root": "はな",
+    "meaning_ja": "花、花びら",
+    "meaning_zh": "花、花瓣",
+    "examples": ["花 (はな)", "花見 (はなみ)"]
+  },
+  {
+    "root": "くさ",
+    "meaning_ja": "草、雑草",
+    "meaning_zh": "草、杂草",
+    "examples": ["草 (くさ)", "草原 (そうげん)"]
+  },
+  {
+    "root": "むし",
+    "meaning_ja": "虫、昆虫",
+    "meaning_zh": "虫、昆虫",
+    "examples": ["虫 (むし)", "虫歯 (むしば)"]
+  },
+  {
+    "root": "いぬ",
+    "meaning_ja": "犬、ペット",
+    "meaning_zh": "狗、宠物",
+    "examples": ["犬 (いぬ)", "犬小屋 (いぬごや)"]
+  },
+  {
+    "root": "かい",
+    "meaning_ja": "貝、貝殻",
+    "meaning_zh": "贝、贝壳",
+    "examples": ["貝 (かい)", "貝殻 (かいがら)"]
+  },
+  {
+    "root": "くるま",
+    "meaning_ja": "車、車両",
+    "meaning_zh": "车、车辆",
+    "examples": ["車 (くるま)", "自動車 (じどうしゃ)"]
+  },
+  {
+    "root": "いと",
+    "meaning_ja": "糸、繊維",
+    "meaning_zh": "线、纤维",
+    "examples": ["糸 (いと)", "糸巻 (いとまき)"]
+  },
+  {
+    "root": "た",
+    "meaning_ja": "食べる、食事",
+    "meaning_zh": "吃、饮食",
+    "examples": ["食 (た)", "食事 (しょくじ)"]
+  },
+  {
+    "root": "こめ",
+    "meaning_ja": "米、ご飯",
+    "meaning_zh": "米、饭",
+    "examples": ["米 (こめ)", "米粒 (こめつぶ)", "米国 (べいこく)"]
+  },
+  {
+    "root": "はや",
+    "meaning_ja": "早い、早朝",
+    "meaning_zh": "早、早晨",
+    "examples": ["早 (はや)", "早朝 (そうちょう)"]
+  },
+  {
+    "root": "まい",
+    "meaning_ja": "毎、毎回",
+    "meaning_zh": "每、每次",
+    "examples": ["毎 (まい)", "毎日 (まいにち)"]
+  },
+  {
+    "root": "あいだ",
+    "meaning_ja": "間、時間",
+    "meaning_zh": "间、时间",
+    "examples": ["間 (あいだ)", "時間 (じかん)"]
+  },
+  {
+    "root": "いま",
+    "meaning_ja": "今、今日",
+    "meaning_zh": "现在、今天",
+    "examples": ["今 (いま)", "今朝 (けさ)"]
+  },
+  {
+    "root": "きた",
+    "meaning_ja": "北、北側",
+    "meaning_zh": "北、北方",
+    "examples": ["北 (きた)", "北風 (きたかぜ)"]
+  },
+  {
+    "root": "みなみ",
+    "meaning_ja": "南、南側",
+    "meaning_zh": "南、南方",
+    "examples": ["南 (みなみ)", "南国 (なんごく)"]
+  },
+  {
+    "root": "ひがし",
+    "meaning_ja": "東、東側",
+    "meaning_zh": "东、东方",
+    "examples": ["東 (ひがし)", "東京 (とうきょう)"]
+  },
+  {
+    "root": "にし",
+    "meaning_ja": "西、西側",
+    "meaning_zh": "西、西方",
+    "examples": ["西 (にし)", "西洋 (せいよう)"]
+  },
+  {
+    "root": "い",
+    "meaning_ja": "生きる、生命",
+    "meaning_zh": "活、生命",
+    "examples": ["生 (い)", "生活 (せいかつ)"]
+  },
+  {
+    "root": "し",
+    "meaning_ja": "死、死亡",
+    "meaning_zh": "死、死亡",
+    "examples": ["死 (し)", "死亡 (しぼう)"]
+  },
+  {
+    "root": "い",
+    "meaning_ja": "行く、行動",
+    "meaning_zh": "去、行动",
+    "examples": ["行 (い)", "旅行 (りょこう)"]
+  },
+  {
+    "root": "く",
+    "meaning_ja": "来る、到来",
+    "meaning_zh": "来、到来",
+    "examples": ["来 (く)", "来年 (らいねん)"]
+  },
+  {
+    "root": "はな",
+    "meaning_ja": "話す、会話",
+    "meaning_zh": "说、谈话",
+    "examples": ["話 (はな)", "電話 (でんわ)"]
+  },
+  {
+    "root": "よ",
+    "meaning_ja": "読む、読書",
+    "meaning_zh": "读、阅读",
+    "examples": ["読 (よ)", "読書 (どくしょ)"]
+  },
+  {
+    "root": "か",
+    "meaning_ja": "書く、書物",
+    "meaning_zh": "写、书籍",
+    "examples": ["書 (か)", "書道 (しょどう)"]
+  },
+  {
+    "root": "き",
+    "meaning_ja": "聞く、聴く",
+    "meaning_zh": "听、倾听",
+    "examples": ["聞 (き)", "新聞 (しんぶん)"]
+  },
+  {
+    "root": "い",
+    "meaning_ja": "言う、言葉",
+    "meaning_zh": "说、语言",
+    "examples": ["言 (い)", "言語 (げんご)"]
+  },
+  {
+    "root": "かた",
+    "meaning_ja": "語る、言語",
+    "meaning_zh": "说、语言",
+    "examples": ["語 (かた)", "日本語 (にほんご)"]
+  },
+  {
+    "root": "くに",
+    "meaning_ja": "国、国家",
+    "meaning_zh": "国、国家",
+    "examples": ["国 (くに)", "国際 (こくさい)"]
+  },
+  {
+    "root": "うみ",
+    "meaning_ja": "海、海洋",
+    "meaning_zh": "海、海洋",
+    "examples": ["海 (うみ)", "海外 (かいがい)"]
+  },
+  {
+    "root": "みせ",
+    "meaning_ja": "店、商店",
+    "meaning_zh": "店、商店",
+    "examples": ["店 (みせ)", "書店 (しょてん)"]
+  },
+  {
+    "root": "みち",
+    "meaning_ja": "道、道路",
+    "meaning_zh": "路、道路",
+    "examples": ["道 (みち)", "鉄道 (てつどう)"]
+  },
+  {
+    "root": "か",
+    "meaning_ja": "買う、購入",
+    "meaning_zh": "买、购买",
+    "examples": ["買 (か)", "買い物 (かいもの)"]
+  },
+  {
+    "root": "う",
+    "meaning_ja": "売る、販売",
+    "meaning_zh": "卖、销售",
+    "examples": ["売 (う)", "売店 (ばいてん)"]
+  },
+  {
+    "root": "し",
+    "meaning_ja": "知る、知識",
+    "meaning_zh": "知道、知识",
+    "examples": ["知 (し)", "知識 (ちしき)"]
+  },
+  {
+    "root": "おも",
+    "meaning_ja": "思う、思考",
+    "meaning_zh": "想、思考",
+    "examples": ["思 (おも)", "思想 (しそう)"]
+  },
+  {
+    "root": "かん",
+    "meaning_ja": "感じ、感情",
+    "meaning_zh": "感觉、情感",
+    "examples": ["感 (かん)", "感情 (かんじょう)"]
+  },
+  {
+    "root": "かんが",
+    "meaning_ja": "考える、思考",
+    "meaning_zh": "考虑、思考",
+    "examples": ["考 (かんが)", "参考 (さんこう)"]
+  },
+  {
+    "root": "あ",
+    "meaning_ja": "会う、会議",
+    "meaning_zh": "会面、会议",
+    "examples": ["会 (あ)", "会社 (かいしゃ)"]
+  },
+  {
+    "root": "しゃ",
+    "meaning_ja": "会社、社会",
+    "meaning_zh": "公司、社会",
+    "examples": ["社 (しゃ)", "社会 (しゃかい)"]
+  },
+  {
+    "root": "よ",
+    "meaning_ja": "世、世界",
+    "meaning_zh": "世、世界",
+    "examples": ["世 (よ)", "世界 (せかい)"]
+  },
+  {
+    "root": "かい",
+    "meaning_ja": "界、領域",
+    "meaning_zh": "界、领域",
+    "examples": ["界 (かい)", "世界 (せかい)"]
+  },
+  {
+    "root": "すべ",
+    "meaning_ja": "全て、全体",
+    "meaning_zh": "全部、整体",
+    "examples": ["全 (すべ)", "全体 (ぜんたい)"]
+  },
+  {
+    "root": "ぶ",
+    "meaning_ja": "部、部門",
+    "meaning_zh": "部、部门",
+    "examples": ["部 (ぶ)", "部屋 (へや)"]
+  },
+  {
+    "root": "いん",
+    "meaning_ja": "員、社員",
+    "meaning_zh": "员、职员",
+    "examples": ["員 (いん)", "社員 (しゃいん)"]
+  },
+  {
+    "root": "ぬし",
+    "meaning_ja": "主、主人",
+    "meaning_zh": "主、主人",
+    "examples": ["主 (ぬし)", "主義 (しゅぎ)"]
+  },
+  {
+    "root": "す",
+    "meaning_ja": "住む、住宅",
+    "meaning_zh": "住、住宅",
+    "examples": ["住 (す)", "住所 (じゅうしょ)"]
+  },
+  {
+    "root": "いえ",
+    "meaning_ja": "家、家庭",
+    "meaning_zh": "家、家庭",
+    "examples": ["家 (いえ)", "家族 (かぞく)"]
+  },
+  {
+    "root": "むろ",
+    "meaning_ja": "室、部屋",
+    "meaning_zh": "室、房间",
+    "examples": ["室 (むろ)", "教室 (きょうしつ)"]
+  },
+  {
+    "root": "もん",
+    "meaning_ja": "門、門戸",
+    "meaning_zh": "门、门户",
+    "examples": ["門 (もん)", "専門 (せんもん)"]
+  },
+  {
+    "root": "おう",
+    "meaning_ja": "王、王様",
+    "meaning_zh": "王、国王",
+    "examples": ["王 (おう)", "王国 (おうこく)"]
+  },
+  {
+    "root": "たま",
+    "meaning_ja": "玉、宝石",
+    "meaning_zh": "玉、宝石",
+    "examples": ["玉 (たま)", "玉石 (ぎょくせき)"]
+  },
+  {
+    "root": "たから",
+    "meaning_ja": "宝、宝物",
+    "meaning_zh": "宝、宝物",
+    "examples": ["宝 (たから)", "宝物 (ほうもつ)"]
+  },
+  {
+    "root": "こう",
+    "meaning_ja": "工、工事",
+    "meaning_zh": "工、工程",
+    "examples": ["工 (こう)", "工場 (こうじょう)"]
+  },
+  {
+    "root": "つく",
+    "meaning_ja": "作る、作品",
+    "meaning_zh": "制作、作品",
+    "examples": ["作 (つく)", "作家 (さっか)"]
+  },
+  {
+    "root": "もち",
+    "meaning_ja": "使う、用途",
+    "meaning_zh": "使用、用途",
+    "examples": ["用 (もち)", "用事 (ようじ)"]
+  },
+  {
+    "root": "しな",
+    "meaning_ja": "品、品物",
+    "meaning_zh": "品、物品",
+    "examples": ["品 (しな)", "商品 (しょうひん)"]
+  },
+  {
+    "root": "え",
+    "meaning_ja": "絵、絵画",
+    "meaning_zh": "画、绘画",
+    "examples": ["絵 (え)", "絵本 (えほん)"]
+  },
+  {
+    "root": "たの",
+    "meaning_ja": "楽しい、音楽",
+    "meaning_zh": "快乐、音乐",
+    "examples": ["楽 (たの)", "楽園 (らくえん)"]
+  },
+  {
+    "root": "うた",
+    "meaning_ja": "歌、歌う",
+    "meaning_zh": "歌、唱歌",
+    "examples": ["歌 (うた)", "歌手 (かしゅ)"]
+  },
+  {
+    "root": "が",
+    "meaning_ja": "画、絵画",
+    "meaning_zh": "画、绘画",
+    "examples": ["画 (が)", "画面 (がめん)"]
+  },
+  {
+    "root": "ず",
+    "meaning_ja": "図、図形",
+    "meaning_zh": "图、图形",
+    "examples": ["図 (ず)", "地図 (ちず)"]
+  },
+  {
+    "root": "てん",
+    "meaning_ja": "点、ポイント",
+    "meaning_zh": "点、点数",
+    "examples": ["点 (てん)", "点数 (てんすう)"]
+  },
+  {
+    "root": "せん",
+    "meaning_ja": "線、路線",
+    "meaning_zh": "线、路线",
+    "examples": ["線 (せん)", "路線 (ろせん)"]
+  },
+  {
+    "root": "ただ",
+    "meaning_ja": "直す、直線",
+    "meaning_zh": "纠正、直线",
+    "examples": ["直 (ただ)", "直接 (ちょくせつ)"]
+  },
+  {
+    "root": "まる",
+    "meaning_ja": "丸、円形",
+    "meaning_zh": "圆、圆形",
+    "examples": ["丸 (まる)", "丸太 (まるた)"]
+  },
+  {
+    "root": "かく",
+    "meaning_ja": "角、角度",
+    "meaning_zh": "角、角度",
+    "examples": ["角 (かく)", "三角 (さんかく)"]
+  },
+  {
+    "root": "ほう",
+    "meaning_ja": "方、方向",
+    "meaning_zh": "方、方向",
+    "examples": ["方 (ほう)", "方法 (ほうほう)"]
+  },
+  {
+    "root": "ある",
+    "meaning_ja": "歩く、歩行",
+    "meaning_zh": "步行、步伐",
+    "examples": ["歩 (ある)", "歩道 (ほどう)"]
+  },
+  {
+    "root": "はし",
+    "meaning_ja": "走る、走行",
+    "meaning_zh": "跑、奔跑",
+    "examples": ["走 (はし)", "走者 (そうしゃ)"]
+  },
+  {
+    "root": "と",
+    "meaning_ja": "止まる、停止",
+    "meaning_zh": "停止、停下",
+    "examples": ["止 (と)", "停止 (ていし)"]
+  },
+  {
+    "root": "かつ",
+    "meaning_ja": "活動、活躍",
+    "meaning_zh": "活动、活跃",
+    "examples": ["活 (かつ)", "生活 (せいかつ)"]
+  },
+  {
+    "root": "おく",
+    "meaning_ja": "送る、送信",
+    "meaning_zh": "送、发送",
+    "examples": ["送 (おく)", "放送 (ほうそう)"]
+  },
+  {
+    "root": "も",
+    "meaning_ja": "持つ、保持",
+    "meaning_zh": "持、保持",
+    "examples": ["持 (も)", "持続 (じぞく)"]
+  },
+  {
+    "root": "ま",
+    "meaning_ja": "待つ、待機",
+    "meaning_zh": "等、等待",
+    "examples": ["待 (ま)", "待機 (たいき)"]
+  },
+  {
+    "root": "の",
+    "meaning_ja": "乗る、乗車",
+    "meaning_zh": "乘、乘车",
+    "examples": ["乗 (の)", "乗車 (じょうしゃ)"]
+  },
+  {
+    "root": "お",
+    "meaning_ja": "降りる、降雨",
+    "meaning_zh": "下降、降雨",
+    "examples": ["降 (お)", "降雨 (こうう)"]
+  },
+  {
+    "root": "はじ",
+    "meaning_ja": "始める、開始",
+    "meaning_zh": "开始、开端",
+    "examples": ["始 (はじ)", "開始 (かいし)"]
+  },
+  {
+    "root": "お",
+    "meaning_ja": "終わる、終了",
+    "meaning_zh": "结束、完结",
+    "examples": ["終 (お)", "終了 (しゅうりょう)"]
+  },
+  {
+    "root": "ひら",
+    "meaning_ja": "開く、開始",
+    "meaning_zh": "开、开始",
+    "examples": ["開 (ひら)", "開会 (かいかい)"]
+  },
+  {
+    "root": "し",
+    "meaning_ja": "閉まる、閉鎖",
+    "meaning_zh": "关闭、闭锁",
+    "examples": ["閉 (し)", "閉店 (へいてん)"]
+  },
+  {
+    "root": "た",
+    "meaning_ja": "建てる、建築",
+    "meaning_zh": "建造、建筑",
+    "examples": ["建 (た)", "建物 (たてもの)"]
+  },
+  {
+    "root": "もの",
+    "meaning_ja": "物、物品",
+    "meaning_zh": "物、物品",
+    "examples": ["物 (もの)", "動物 (どうぶつ)"]
+  },
+  {
+    "root": "うご",
+    "meaning_ja": "動く、運動",
+    "meaning_zh": "动、运动",
+    "examples": ["動 (うご)", "運動 (うんどう)"]
+  },
+  {
+    "root": "う",
+    "meaning_ja": "植える、植物",
+    "meaning_zh": "种植、植物",
+    "examples": ["植 (う)", "植物 (しょくぶつ)"]
+  },
+  {
+    "root": "みず",
+    "meaning_ja": "自分、自己",
+    "meaning_zh": "自己、本身",
+    "examples": ["自 (みず)", "自由 (じゆう)"]
+  },
+  {
+    "root": "ほか",
+    "meaning_ja": "他、他人",
+    "meaning_zh": "其他、他人",
+    "examples": ["他 (ほか)", "他人 (たにん)"]
+  },
+  {
+    "root": "おな",
+    "meaning_ja": "同じ、同等",
+    "meaning_zh": "相同、相同",
+    "examples": ["同 (おな)", "同級 (どうきゅう)"]
+  },
+  {
+    "root": "ふ",
+    "meaning_ja": "不、否定",
+    "meaning_zh": "不、否定",
+    "examples": ["不 (ふ)", "不思議 (ふしぎ)"]
+  },
+  {
+    "root": "な",
+    "meaning_ja": "無い、無",
+    "meaning_zh": "无、无",
+    "examples": ["無 (な)", "無料 (むりょう)"]
+  },
+  {
+    "root": "あ",
+    "meaning_ja": "有る、所有",
+    "meaning_zh": "有、拥有",
+    "examples": ["有 (あ)", "有名 (ゆうめい)"]
+  },
+  {
+    "root": "とも",
+    "meaning_ja": "友、友達",
+    "meaning_zh": "友、朋友",
+    "examples": ["友 (とも)", "友達 (ともだち)"]
+  },
+  {
+    "root": "おや",
+    "meaning_ja": "親、親しい",
+    "meaning_zh": "亲、亲近",
+    "examples": ["親 (おや)", "親友 (しんゆう)"]
+  },
+  {
+    "root": "こう",
+    "meaning_ja": "公、公共",
+    "meaning_zh": "公、公共",
+    "examples": ["公 (こう)", "公園 (こうえん)"]
+  },
+  {
+    "root": "わたし",
+    "meaning_ja": "私、個人的",
+    "meaning_zh": "我、个人",
+    "examples": ["私 (わたし)", "私立 (しりつ)"]
+  },
+  {
+    "root": "い",
+    "meaning_ja": "意、意思",
+    "meaning_zh": "意、意图",
+    "examples": ["意 (い)", "意見 (いけん)"]
+  },
+  {
+    "root": "り",
+    "meaning_ja": "理、理論",
+    "meaning_zh": "理、理论",
+    "examples": ["理 (り)", "理由 (りゆう)"]
+  },
+  {
+    "root": "こと",
+    "meaning_ja": "事、事実",
+    "meaning_zh": "事、事实",
+    "examples": ["事 (こと)", "仕事 (しごと)"]
+  },
+  {
+    "root": "ば",
+    "meaning_ja": "場、場所",
+    "meaning_zh": "场、场所",
+    "examples": ["場 (ば)", "市場 (いちば)"]
+  },
+  {
+    "root": "ところ",
+    "meaning_ja": "所、場所",
+    "meaning_zh": "处、场所",
+    "examples": ["所 (ところ)", "住所 (じゅうしょ)"]
+  },
+  {
+    "root": "ち",
+    "meaning_ja": "地、地面",
+    "meaning_zh": "地、地面",
+    "examples": ["地 (ち)", "地震 (じしん)"]
+  },
+  {
+    "root": "おもて",
+    "meaning_ja": "表、表現",
+    "meaning_zh": "表、表达",
+    "examples": ["表 (おもて)", "表現 (ひょうげん)"]
+  },
+  {
+    "root": "うら",
+    "meaning_ja": "裏、裏側",
+    "meaning_zh": "里、背面",
+    "examples": ["裏 (うら)", "裏口 (うらぐち)"]
+  },
+  {
+    "root": "あさ",
+    "meaning_ja": "朝、朝食",
+    "meaning_zh": "早晨、早餐",
+    "examples": ["朝 (あさ)", "朝食 (ちょうしょく)"]
+  },
+  {
+    "root": "ひる",
+    "meaning_ja": "昼、昼間",
+    "meaning_zh": "白天、午间",
+    "examples": ["昼 (ひる)", "昼食 (ちゅうしょく)"]
+  },
+  {
+    "root": "よ",
+    "meaning_ja": "夜、夜間",
+    "meaning_zh": "夜、夜间",
+    "examples": ["夜 (よ)", "夜中 (よなか)"]
+  },
+  {
+    "root": "はる",
+    "meaning_ja": "春、春季",
+    "meaning_zh": "春、春季",
+    "examples": ["春 (はる)", "春分 (しゅんぶん)"]
+  },
+  {
+    "root": "なつ",
+    "meaning_ja": "夏、夏季",
+    "meaning_zh": "夏、夏季",
+    "examples": ["夏 (なつ)", "夏休み (なつやすみ)"]
+  },
+  {
+    "root": "あき",
+    "meaning_ja": "秋、秋季",
+    "meaning_zh": "秋、秋季",
+    "examples": ["秋 (あき)", "秋分 (しゅうぶん)"]
+  },
+  {
+    "root": "ふゆ",
+    "meaning_ja": "冬、冬季",
+    "meaning_zh": "冬、冬季",
+    "examples": ["冬 (ふゆ)", "冬休み (ふゆやすみ)"]
+  },
+  {
+    "root": "くも",
+    "meaning_ja": "雲、曇り",
+    "meaning_zh": "云、阴云",
+    "examples": ["雲 (くも)", "曇天 (どんてん)"]
+  },
+  {
+    "root": "とり",
+    "meaning_ja": "鳥、鳥類",
+    "meaning_zh": "鸟、鸟类",
+    "examples": ["鳥 (とり)", "小鳥 (ことり)"]
+  },
+  {
+    "root": "うお",
+    "meaning_ja": "魚、魚類",
+    "meaning_zh": "鱼、鱼类",
+    "examples": ["魚 (うお)", "魚市場 (うおいちば)"]
+  },
+  {
+    "root": "うま",
+    "meaning_ja": "馬、馬力",
+    "meaning_zh": "马、马力",
+    "examples": ["馬 (うま)", "競馬 (けいば)"]
+  },
+  {
+    "root": "うし",
+    "meaning_ja": "牛、牛肉",
+    "meaning_zh": "牛、牛肉",
+    "examples": ["牛 (うし)", "牛肉 (ぎゅうにく)"]
+  },
+  {
+    "root": "ひつじ",
+    "meaning_ja": "羊、羊毛",
+    "meaning_zh": "羊、羊毛",
+    "examples": ["羊 (ひつじ)", "羊毛 (ようもう)"]
+  },
+  {
+    "root": "にく",
+    "meaning_ja": "肉、肉体",
+    "meaning_zh": "肉、肉体",
+    "examples": ["肉 (にく)", "肉食 (にくしょく)"]
+  },
+  {
+    "root": "かわ",
+    "meaning_ja": "皮、皮膚",
+    "meaning_zh": "皮、皮肤",
+    "examples": ["皮 (かわ)", "皮革 (ひかく)"]
+  },
+  {
+    "root": "け",
+    "meaning_ja": "毛、毛髪",
+    "meaning_zh": "毛、毛发",
+    "examples": ["毛 (け)", "毛布 (もうふ)"]
+  },
+  {
+    "root": "は",
+    "meaning_ja": "羽、羽根",
+    "meaning_zh": "羽、羽毛",
+    "examples": ["羽 (は)", "羽毛 (うもう)"]
+  },
+  {
+    "root": "ふく",
+    "meaning_ja": "服、衣服",
+    "meaning_zh": "服、衣服",
+    "examples": ["服 (ふく)", "洋服 (ようふく)"]
+  },
+  {
+    "root": "き",
+    "meaning_ja": "着る、到着",
+    "meaning_zh": "穿、到达",
+    "examples": ["着 (き)", "着物 (きもの)"]
+  },
+  {
+    "root": "かみ",
+    "meaning_ja": "紙、紙類",
+    "meaning_zh": "纸、纸张",
+    "examples": ["紙 (かみ)", "新聞紙 (しんぶんし)"]
+  },
+  {
+    "root": "ふで",
+    "meaning_ja": "筆、筆記",
+    "meaning_zh": "笔、书写",
+    "examples": ["筆 (ふで)", "筆記 (ひっき)"]
   }
 ]
