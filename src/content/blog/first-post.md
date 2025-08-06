@@ -1,7 +1,7 @@
 ---
 title: '活得久的人的案例'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
+pubDate: '2022-07-08'
 ---
 我们所知，世界上最长寿的人是普罗旺斯阿尔勒的珍妮·路易斯·
 卡尔芒(Jeanne Louise Calment)，她于1997年去世，享年122岁又164天。

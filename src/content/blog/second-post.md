@@ -1,7 +1,7 @@
 ---
 title: '土葬还是火化？'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 15 2022'
+pubDate: '2022-07-15'
 ---
 
 
